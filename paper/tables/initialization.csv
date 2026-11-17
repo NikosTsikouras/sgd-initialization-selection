@@ -1,0 +1,17 @@
+id,condition,n_fitted,n_runs,angle_radians,angle_poles,checkpoint,allocation_mean_error_median,uniform_mean_error_median,retained_neurons
+paper-like,paper-like,20,20,0.01294053473573403,initial,first_fit,0.09022979,0.3581221466479937,False
+0.25x,0.25x,20,20,0.004085256924492237,initial,first_fit,0.090585905,0.32078294406227115,False
+0.5x,0.5x,20,20,0.0068149717713648405,initial,first_fit,0.1016305975,0.34849499717062427,False
+2x,2x,20,20,0.02392166686007036,initial,first_fit,0.085519906,0.3459186127708169,False
+5x,5x,20,20,0.058630009549533804,initial,first_fit,0.081220455,0.33496408078076034,False
+20x,20x,0,20,0.20772631249885443,initial,final,,,False
+100x,100x,0,20,0.8042192355455945,initial,final,,,False
+xavier_normal,xavier_normal,0,20,1.8261772957362434,initial,final,,,False
+unrestricted,unrestricted,20,20,0.013754206273082699,initial,first_fit,0.090453505,0.3439168549454207,False
+25% violating,25% violating,20,20,0.024996345493004238,initial,first_fit,0.13191223000000002,0.9333157604735748,False
+100% violating,100% violating,20,20,0.009657261925787405,initial,first_fit,0.18876195,0.5975582295777939,False
+bounded independent,bounded independent,20,20,0.015546459749214448,initial,first_fit,0.08657261999999999,0.36449919123798613,False
+wide layer ratios,wide layer ratios,20,20,0.19123157773498864,current,first_fit,0.13500634495854885,0.9888196862299585,True
+iid Gaussian output,iid Gaussian output,20,20,0.11770151694557597,current,first_fit,0.17675420715680948,1.4491732826086654,True
+"iid Gaussian output, unrestricted dirs","iid Gaussian output, unrestricted dirs",20,20,0.1819544061434272,current,first_fit,0.16528636992754428,1.2754555151038665,True
+"Gaussian both layers, small scale","Gaussian both layers, small scale",20,20,0.17584359992991544,current,first_fit,0.14033213681913348,1.3902768960976921,True

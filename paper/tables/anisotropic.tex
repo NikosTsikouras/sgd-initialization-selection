@@ -1,0 +1,40 @@
+% Generated from experiment results by scripts/make_tables.py.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Teacher & $\kappa$ & $\tau$ & Budget & Fits & $E_\theta$ & $E_{\Sigma\theta}$ \\
+\midrule
+Top & 1 & 0.003 & 40k & 20/20 & 0.0763 & 0.0763 \\
+Top & 3 & 0.003 & 40k & 20/20 & 0.0671 & 0.0671 \\
+Top & 10 & 0.003 & 40k & 20/20 & 0.0600 & 0.0600 \\
+Top & 30 & 0.003 & 40k & 20/20 & 0.0562 & 0.0562 \\
+Top & 100 & 0.003 & 40k & 20/20 & 0.0528 & 0.0528 \\
+Top & 300 & 0.003 & 40k & 20/20 & 0.0470 & 0.0470 \\
+Top & 1000 & 0.003 & 40k & 20/20 & 0.0452 & 0.0452 \\
+Bottom & 3 & 0.003 & 40k & 20/20 & 0.0956 & 0.0956 \\
+Bottom & 10 & 0.003 & 40k & 0/20 & -- & -- \\
+Bottom & 30 & 0.003 & 40k & 0/20 & -- & -- \\
+Bottom & 100 & 0.003 & 40k & 0/20 & -- & -- \\
+Bottom & 300 & 0.003 & 40k & 0/20 & -- & -- \\
+Bottom & 1000 & 0.003 & 40k & 0/20 & -- & -- \\
+Mixed & 3 & 0.003 & 40k & 20/20 & 0.1467 & 0.0781 \\
+Mixed & 10 & 0.003 & 40k & 20/20 & 0.1753 & 0.0691 \\
+Mixed & 30 & 0.003 & 40k & 0/20 & -- & -- \\
+Mixed & 100 & 0.003 & 40k & 0/20 & -- & -- \\
+Mixed & 300 & 0.003 & 40k & 0/20 & -- & -- \\
+Mixed & 1000 & 0.003 & 40k & 0/20 & -- & -- \\
+\midrule
+Bottom & 10 & 0.0003 & 400k & 14/20 & 0.0864 & 0.0864 \\
+Bottom & 30 & 0.0001 & 1200k & 0/20 & -- & -- \\
+Bottom & 100 & 0.00003 & 4000k & 0/20 & -- & -- \\
+Mixed & 30 & 0.003 & 400k & 20/20 & 0.1800 & 0.0653 \\
+Mixed & 100 & 0.003 & 400k & 20/20 & 0.1917 & 0.0569 \\
+Mixed & 1000 & 0.003 & 400k & 0/20 & -- & -- \\
+\bottomrule
+\end{tabular}
+\caption{Anisotropic Gaussian inputs and budget/step-size controls (20 seeds per row; $1\mathrm{k}=1000$ updates). Top and bottom place the teacher along eigenvectors of the largest and smallest covariance eigenvalues; mixed uses their normalized sum. $E_\theta$ and $E_{\Sigma\theta}$ are pooled median absolute log-share errors at fitting for the original and covariance-based predictions. The lower block reports the controls. The two predictions coincide when $\theta_\star$ is an eigenvector. Dashes indicate no fit.}
+\label{tab:h-anisotropic}
+\end{table}

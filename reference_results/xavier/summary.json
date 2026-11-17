@@ -1,0 +1,155 @@
+{
+  "protocol": {
+    "d": 20,
+    "m": 16,
+    "M": 8192,
+    "B": 1,
+    "beta": 1.0,
+    "tau": 0.003,
+    "eta": 0.012,
+    "max_updates": 15000,
+    "check_every": 100,
+    "fit_threshold": 1e-06,
+    "n_seeds": 20,
+    "seeds": [
+      20271100,
+      20271101,
+      20271102,
+      20271103,
+      20271104,
+      20271105,
+      20271106,
+      20271107,
+      20271108,
+      20271109,
+      20271110,
+      20271111,
+      20271112,
+      20271113,
+      20271114,
+      20271115,
+      20271116,
+      20271117,
+      20271118,
+      20271119
+    ],
+    "hidden_entry_variance": 0.05555555555555555,
+    "parameter_a_variance": 1.8823529411764706,
+    "effective_output_variance": 0.11764705882352941,
+    "dtype": "float64",
+    "sampling": "uniform with replacement from one fixed dataset per seed",
+    "initialization": "independent Gaussian Xavier normal; gain 1; no angle/sign conditioning",
+    "pairing": "new independent NumPy seeds, not paired with archived Torch sweep"
+  },
+  "n_fitted": 0,
+  "n_aligned_initial": 0,
+  "n_aligned_current": 0,
+  "n_no_changed_signs_at_end": 10,
+  "n_any_sign_changed_during_training": 12,
+  "initial_nonpositive_G_neurons": 16,
+  "initial_nonpositive_G_runs": 10,
+  "n_initial_sign_classes_size_at_least_two": 20,
+  "fitting_step": null,
+  "final": {
+    "loss": {
+      "n": 20,
+      "min": 0.0012458907608364767,
+      "p10": 0.0014240999995504655,
+      "median": 0.002009232138001249,
+      "p90": 0.0026251005060381758,
+      "max": 0.0032494236199935855
+    },
+    "max_angle_initial": {
+      "n": 20,
+      "min": 1.4911120997252694,
+      "p10": 1.5973965224111426,
+      "median": 1.8261772957362434,
+      "p90": 2.192886494588955,
+      "max": 2.2653221687525797
+    },
+    "max_angle_current": {
+      "n": 20,
+      "min": 1.4911120997252694,
+      "p10": 1.5832663560113123,
+      "median": 1.8261772957362434,
+      "p90": 1.9666766367750843,
+      "max": 2.0439370811106676
+    },
+    "weighted_angle_current": {
+      "n": 20,
+      "min": 0.6150780293143009,
+      "p10": 0.6768463000957587,
+      "median": 0.7807146672145948,
+      "p90": 0.9393191009176524,
+      "max": 0.973509950483699
+    },
+    "changed_sign_count": {
+      "n": 20,
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.5,
+      "p90": 2.1000000000000014,
+      "max": 3.0
+    },
+    "changed_sign_mass": {
+      "n": 20,
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0002479204948050162,
+      "p90": 0.02466913395517701,
+      "max": 0.05168567111611519
+    },
+    "mean_log_error": {
+      "n": 20,
+      "min": 0.3589523359303475,
+      "p10": 0.5396003528686848,
+      "median": 0.979007783186983,
+      "p90": 1.1590149649215755,
+      "max": 1.4333709879680263
+    },
+    "median_log_error": {
+      "n": 20,
+      "min": 0.17303014678490192,
+      "p10": 0.24205570532138843,
+      "median": 0.46806729205997527,
+      "p90": 0.7110049604672726,
+      "max": 0.9207169599356542
+    }
+  },
+  "at_fit": {
+    "loss": null,
+    "max_angle_initial": null,
+    "max_angle_current": null,
+    "weighted_angle_current": null,
+    "changed_sign_count": null,
+    "changed_sign_mass": null,
+    "mean_log_error": null,
+    "median_log_error": null
+  },
+  "allocation_at_fit_no_changed_signs": {
+    "n_runs": 0,
+    "n_neurons": 0,
+    "pooled_median_log_error": null,
+    "median_run_mean_log_error": null
+  },
+  "allocation_at_end_no_changed_signs": {
+    "n_runs": 10,
+    "n_neurons": 160,
+    "pooled_median_log_error": 0.3916566654952124,
+    "median_run_mean_log_error": 1.0238711283975626
+  },
+  "allocation_at_end_all_runs_empirical": {
+    "n_runs": 20,
+    "n_neurons": 320,
+    "pooled_median_log_error": 0.4696834010361245,
+    "median_run_mean_log_error": 0.979007783186983
+  },
+  "notes": [
+    "Allocation outside the theorem assumptions is descriptive only.",
+    "No fitting-time allocation statistic exists when n_fitted=0.",
+    "End-point predictions use squared initial growing modes even when G0<=0; this does not validate the positive-growing-mode theorem.",
+    "The no-changed-sign checkpoint subset does not itself certify no earlier sign changes.",
+    "Reported angle units are radians."
+  ],
+  "runtime_seconds": 2.2750327587127686
+}

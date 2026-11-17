@@ -1,0 +1,857 @@
+[
+ {
+  "label": "alpha=0.001 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   8500.0,
+   9280.0,
+   9940.0
+  ],
+  "align_step_q": [
+   5820.0,
+   6510.0,
+   7140.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.002324086664824865,
+   0.002685625523736161,
+   0.0049284617706871
+  ],
+  "final_pop_loss_q": [
+   7.99504906723314e-12,
+   4.831951505579468e-11,
+   6.239441185940109e-10
+  ],
+  "final_max_angle_q": [
+   0.0013449089940413789,
+   0.002426880395050014,
+   0.005164435576013846
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.07805139053917984,
+   "p90_rel_err": 0.20694273931716473,
+   "max_log_err": 0.462954969754236,
+   "log_corr": 0.9571931768079653,
+   "median_log_err_uniform_baseline": 0.2847792578474672,
+   "per_run_median_log_err_q": [
+    0.03485155278360731,
+    0.08072446632098691,
+    0.1331112407745404
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.0780504251427236,
+   "p90_rel_err": 0.2069421864519664,
+   "max_log_err": 0.4629551658120725,
+   "log_corr": 0.9571932959470185,
+   "median_log_err_uniform_baseline": 0.284780081668388,
+   "per_run_median_log_err_q": [
+    0.03485202166604277,
+    0.08072446265442002,
+    0.13311062401622836
+   ]
+  },
+  "final_train_loss_q": [
+   2.58833987452473e-28,
+   1.559019077354647e-11,
+   1.0200129438073706e-09
+  ],
+  "alpha": 0.001,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.003 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   7840.0,
+   8600.0,
+   9120.0
+  ],
+  "align_step_q": [
+   5300.0,
+   5850.0,
+   6480.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.004198913350588388,
+   0.0051050063172982975,
+   0.009848667302961897
+  ],
+  "final_pop_loss_q": [
+   2.3155594108814626e-10,
+   4.443862500203011e-10,
+   1.1253438181313413e-09
+  ],
+  "final_max_angle_q": [
+   0.0037944504085128537,
+   0.004952004280733057,
+   0.009067174697796455
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.07795388125282114,
+   "p90_rel_err": 0.2070617275476012,
+   "max_log_err": 0.46280833469791666,
+   "log_corr": 0.9572711870497794,
+   "median_log_err_uniform_baseline": 0.2846092946682419,
+   "per_run_median_log_err_q": [
+    0.03475891642958727,
+    0.08043061784408845,
+    0.13288996945489107
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.07795179405392831,
+   "p90_rel_err": 0.20706092813005875,
+   "max_log_err": 0.4628091472575949,
+   "log_corr": 0.9572715275161967,
+   "median_log_err_uniform_baseline": 0.28460967396991954,
+   "per_run_median_log_err_q": [
+    0.034759774912122045,
+    0.08042832396594363,
+    0.13288824267442362
+   ]
+  },
+  "final_train_loss_q": [
+   3.0812745808074734e-11,
+   2.2634107793544378e-10,
+   7.048698497148481e-10
+  ],
+  "alpha": 0.003,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.01 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   7120.0,
+   7780.0,
+   8360.0
+  ],
+  "align_step_q": [
+   4520.0,
+   5130.0,
+   5820.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.00988257134584713,
+   0.014396448460534788,
+   0.0195133279121907
+  ],
+  "final_pop_loss_q": [
+   4.242192153114388e-09,
+   6.907278526924188e-09,
+   9.56093781923073e-09
+  ],
+  "final_max_angle_q": [
+   0.010057391782494419,
+   0.013797264754740551,
+   0.018912456532743573
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.07750619347089913,
+   "p90_rel_err": 0.2069089682017239,
+   "max_log_err": 0.46452747445944886,
+   "log_corr": 0.9573640051839476,
+   "median_log_err_uniform_baseline": 0.2847526314615615,
+   "per_run_median_log_err_q": [
+    0.03468604662830753,
+    0.0803767278979792,
+    0.131889157975092
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.07749960623398953,
+   "p90_rel_err": 0.20690778034953552,
+   "max_log_err": 0.4645268434463325,
+   "log_corr": 0.9573649252376989,
+   "median_log_err_uniform_baseline": 0.2847524599797845,
+   "per_run_median_log_err_q": [
+    0.034685891427794276,
+    0.08037364089450788,
+    0.13188361491670048
+   ]
+  },
+  "final_train_loss_q": [
+   7.604097575847031e-10,
+   3.6827509499775055e-09,
+   1.0990014007049642e-08
+  ],
+  "alpha": 0.01,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.03 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   6620.0,
+   7050.0,
+   7680.0
+  ],
+  "align_step_q": [
+   4060.0,
+   4480.0,
+   5500.0
+  ],
+  "n_aligned_005": 19,
+  "align_before_fit": 19,
+  "max_angle_at_fit_q": [
+   0.03017600787011677,
+   0.03709295429368474,
+   0.05162814218147411
+  ],
+  "final_pop_loss_q": [
+   9.812435514122697e-08,
+   1.2177781161248902e-07,
+   1.6535993069277666e-07
+  ],
+  "final_max_angle_q": [
+   0.030432802921685122,
+   0.03644393412394235,
+   0.05086673718729284
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.07767044481352839,
+   "p90_rel_err": 0.20725918841020222,
+   "max_log_err": 0.46349474669408425,
+   "log_corr": 0.9578942521431486,
+   "median_log_err_uniform_baseline": 0.2835204851168506,
+   "per_run_median_log_err_q": [
+    0.033956914415715,
+    0.07969733625863736,
+    0.12886232537199527
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.0776556932840341,
+   "p90_rel_err": 0.2072486802335828,
+   "max_log_err": 0.4635183853181375,
+   "log_corr": 0.9578963806619885,
+   "median_log_err_uniform_baseline": 0.28351457675820274,
+   "per_run_median_log_err_q": [
+    0.03395390804710772,
+    0.07968897304700137,
+    0.1288368790179798
+   ]
+  },
+  "final_train_loss_q": [
+   3.758974261157435e-08,
+   7.994163682106291e-08,
+   1.4108242330858182e-07
+  ],
+  "alpha": 0.03,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.1 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   2.325552816928589e-06,
+   2.7635485933819037e-06,
+   3.1909909432026318e-06
+  ],
+  "final_max_angle_q": [
+   0.08523113380346208,
+   0.10888718919383293,
+   0.1403571320096408
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.07787190759472634,
+   "p90_rel_err": 0.2057147722427255,
+   "max_log_err": 0.4403233185116291,
+   "log_corr": 0.959932810428748,
+   "median_log_err_uniform_baseline": 0.2853543162527376,
+   "per_run_median_log_err_q": [
+    0.03539586373133382,
+    0.08170117370010309,
+    0.12385153647978187
+   ]
+  },
+  "final_train_loss_q": [
+   1.1625032541686106e-06,
+   1.6279555384017987e-06,
+   2.155785384133411e-06
+  ],
+  "alpha": 0.1,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.3 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   3.29044801061773e-05,
+   3.747310717747143e-05,
+   4.423644779971703e-05
+  ],
+  "final_max_angle_q": [
+   0.23446160778745492,
+   0.28756149013204524,
+   0.3804009973328154
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.07101588501188318,
+   "p90_rel_err": 0.18798732589672837,
+   "max_log_err": 0.4371935213058279,
+   "log_corr": 0.9641493609895353,
+   "median_log_err_uniform_baseline": 0.2920407244378762,
+   "per_run_median_log_err_q": [
+    0.041233949695529834,
+    0.08005886774638216,
+    0.11677326636979043
+   ]
+  },
+  "final_train_loss_q": [
+   1.8684687447893437e-05,
+   2.2675188650532488e-05,
+   2.6478196839514814e-05
+  ],
+  "alpha": 0.3,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=1.0 fixed",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.00037623265689501473,
+   0.0004211062527504361,
+   0.0004983748008700051
+  ],
+  "final_max_angle_q": [
+   0.6562339384137217,
+   0.7633466421417441,
+   1.0099139522647342
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.07233498986228254,
+   "p90_rel_err": 0.20692222624814507,
+   "max_log_err": 0.5025747803600544,
+   "log_corr": 0.9608615314919873,
+   "median_log_err_uniform_baseline": 0.26903992310316976,
+   "per_run_median_log_err_q": [
+    0.03183954753287429,
+    0.07252160655858131,
+    0.14616793792416455
+   ]
+  },
+  "final_train_loss_q": [
+   0.00022025565781378913,
+   0.00027563315069171996,
+   0.0003254981022637907
+  ],
+  "alpha": 1.0,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.001 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   8340.0,
+   8640.0,
+   8960.0
+  ],
+  "align_step_q": [
+   5840.0,
+   6220.0,
+   6740.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.00204722724176238,
+   0.0024591154883421354,
+   0.003086424769390438
+  ],
+  "final_pop_loss_q": [
+   5.980493877899562e-12,
+   3.388056502018344e-11,
+   1.4474599296931956e-10
+  ],
+  "final_max_angle_q": [
+   0.001243222807586931,
+   0.00207534878843019,
+   0.0027080261196902136
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.06643085169391784,
+   "p90_rel_err": 0.16088409536429504,
+   "max_log_err": 0.5124182783341025,
+   "log_corr": 0.9716955427513877,
+   "median_log_err_uniform_baseline": 0.3042097346165141,
+   "per_run_median_log_err_q": [
+    0.022483294782267352,
+    0.06409126215590809,
+    0.09978968286565235
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06643084156873391,
+   "p90_rel_err": 0.1608852975066922,
+   "max_log_err": 0.5124180247042228,
+   "log_corr": 0.9716955454011479,
+   "median_log_err_uniform_baseline": 0.30420927441354073,
+   "per_run_median_log_err_q": [
+    0.022482615926655847,
+    0.06409139126414079,
+    0.09978926582370679
+   ]
+  },
+  "alpha": 0.001,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.003 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   7620.0,
+   7910.0,
+   8120.0
+  ],
+  "align_step_q": [
+   5240.0,
+   5520.0,
+   5820.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.0031507612916838383,
+   0.004544165403411224,
+   0.006289470188753217
+  ],
+  "final_pop_loss_q": [
+   7.2319039645663e-11,
+   1.9757245839358006e-10,
+   5.013329751335505e-10
+  ],
+  "final_max_angle_q": [
+   0.0026796412794853255,
+   0.004137084492186381,
+   0.006333363727735947
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.06635635714275506,
+   "p90_rel_err": 0.1608566778172799,
+   "max_log_err": 0.5120871821030217,
+   "log_corr": 0.9716900671063203,
+   "median_log_err_uniform_baseline": 0.3043998572778369,
+   "per_run_median_log_err_q": [
+    0.02248594358381015,
+    0.06424445794239898,
+    0.09991868856506532
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.0663560520999632,
+   "p90_rel_err": 0.1608602235261619,
+   "max_log_err": 0.5120863332278485,
+   "log_corr": 0.9716900874536063,
+   "median_log_err_uniform_baseline": 0.30440083464239653,
+   "per_run_median_log_err_q": [
+    0.022484572843159224,
+    0.06424459070969518,
+    0.09991720388589284
+   ]
+  },
+  "alpha": 0.003,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.01 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   6800.0,
+   7140.0,
+   7400.0
+  ],
+  "align_step_q": [
+   4520.0,
+   4740.0,
+   4900.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.010133311387914557,
+   0.011845674821995621,
+   0.014665734433960735
+  ],
+  "final_pop_loss_q": [
+   3.699758943653819e-09,
+   4.586740653955701e-09,
+   9.145451174141783e-09
+  ],
+  "final_max_angle_q": [
+   0.009391945897803821,
+   0.011611339095619014,
+   0.014042483644244314
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.0666980741836278,
+   "p90_rel_err": 0.16122456770230556,
+   "max_log_err": 0.5105246522744591,
+   "log_corr": 0.9716767828606782,
+   "median_log_err_uniform_baseline": 0.30294870560725523,
+   "per_run_median_log_err_q": [
+    0.022592964515978947,
+    0.064032206983222,
+    0.09985407560117054
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06669944447879204,
+   "p90_rel_err": 0.16122938548807308,
+   "max_log_err": 0.5105122422752505,
+   "log_corr": 0.9716768429642108,
+   "median_log_err_uniform_baseline": 0.3029461835517555,
+   "per_run_median_log_err_q": [
+    0.022589676527485628,
+    0.06402639194179474,
+    0.09984970026402715
+   ]
+  },
+  "alpha": 0.01,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.03 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 20,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": [
+   6180.0,
+   6400.0,
+   6620.0
+  ],
+  "align_step_q": [
+   3920.0,
+   4240.0,
+   4540.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 20,
+  "max_angle_at_fit_q": [
+   0.027782125958163418,
+   0.03435821084478441,
+   0.044423173109747346
+  ],
+  "final_pop_loss_q": [
+   7.702991999813946e-08,
+   9.547641133256235e-08,
+   1.1981434111518752e-07
+  ],
+  "final_max_angle_q": [
+   0.027055506918543207,
+   0.034033571972207216,
+   0.04384525013776199
+  ],
+  "alloc_at_fit": {
+   "n_runs": 20,
+   "median_log_err": 0.06706298166098065,
+   "p90_rel_err": 0.15919564313711806,
+   "max_log_err": 0.5098351943026788,
+   "log_corr": 0.9716962138636721,
+   "median_log_err_uniform_baseline": 0.30299524789645926,
+   "per_run_median_log_err_q": [
+    0.022955842131647926,
+    0.06461524821730065,
+    0.09975787111751007
+   ]
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06706308734307201,
+   "p90_rel_err": 0.15918968848246376,
+   "max_log_err": 0.5098028684788619,
+   "log_corr": 0.9716963284164244,
+   "median_log_err_uniform_baseline": 0.3029937268480971,
+   "per_run_median_log_err_q": [
+    0.022953037564992722,
+    0.06460222221979142,
+    0.09975426280765354
+   ]
+  },
+  "alpha": 0.03,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.1 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   2.083918916762073e-06,
+   2.303591272956318e-06,
+   2.495494017873412e-06
+  ],
+  "final_max_angle_q": [
+   0.08205067807245724,
+   0.10095020957332465,
+   0.13435642330844869
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06481189946722808,
+   "p90_rel_err": 0.1621142978919203,
+   "max_log_err": 0.5109106311685787,
+   "log_corr": 0.9720005972595709,
+   "median_log_err_uniform_baseline": 0.3032890639656147,
+   "per_run_median_log_err_q": [
+    0.021398067676243,
+    0.06603395986010094,
+    0.10313017799985949
+   ]
+  },
+  "alpha": 0.1,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=0.3 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   2.7843342785049963e-05,
+   3.005220477519943e-05,
+   3.2343150674241095e-05
+  ],
+  "final_max_angle_q": [
+   0.21668870652295963,
+   0.26552169262018627,
+   0.37511021560504815
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.060902064298761154,
+   "p90_rel_err": 0.15284358584725835,
+   "max_log_err": 0.5148036526834819,
+   "log_corr": 0.9734344333883916,
+   "median_log_err_uniform_baseline": 0.28784700647044215,
+   "per_run_median_log_err_q": [
+    0.03116760715773695,
+    0.06075133465641624,
+    0.10335651857140069
+   ]
+  },
+  "alpha": 0.3,
+  "tau": 0.003
+ },
+ {
+  "label": "alpha=1.0 online",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 30000,
+  "fit_step_q": null,
+  "align_step_q": null,
+  "n_aligned_005": 0,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.0002413141955007747,
+   0.00028744325268798,
+   0.0003412218527458766
+  ],
+  "final_max_angle_q": [
+   0.6024985850499813,
+   0.7200666537730724,
+   0.9545275304372532
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06809028809081631,
+   "p90_rel_err": 0.18721066806395908,
+   "max_log_err": 0.39638508685653623,
+   "log_corr": 0.9670620677405974,
+   "median_log_err_uniform_baseline": 0.2802589295815986,
+   "per_run_median_log_err_q": [
+    0.04149887608961247,
+    0.07423706701246319,
+    0.11219356675239489
+   ]
+  },
+  "alpha": 1.0,
+  "tau": 0.003
+ }
+]

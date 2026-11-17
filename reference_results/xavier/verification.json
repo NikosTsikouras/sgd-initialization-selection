@@ -1,0 +1,50 @@
+{
+  "max_alternate_exact_loss_difference": 7.771561172376096e-16,
+  "independent_scalar_replay": [
+    {
+      "seed": 20271100,
+      "max_parameter_difference": 2.6645352591003757e-15
+    },
+    {
+      "seed": 20271107,
+      "max_parameter_difference": 1.7763568394002505e-15
+    },
+    {
+      "seed": 20271119,
+      "max_parameter_difference": 2.1094237467877974e-15
+    }
+  ],
+  "finite_difference_max_absolute_error": 6.522793416507966e-11,
+  "fresh_test_loss_checks": [
+    {
+      "seed": 20271100,
+      "exact_loss": 0.0012458907608364767,
+      "independent_mc_loss": 0.0012445775437932563,
+      "standard_error": 3.067042702333531e-06,
+      "z_difference": 0.4281704464764169,
+      "n_test": 400000
+    },
+    {
+      "seed": 20271107,
+      "exact_loss": 0.0032494236199935855,
+      "independent_mc_loss": 0.0032360877488234303,
+      "standard_error": 8.151892623327047e-06,
+      "z_difference": 1.6359233108632985,
+      "n_test": 400000
+    },
+    {
+      "seed": 20271119,
+      "exact_loss": 0.002559833470144879,
+      "independent_mc_loss": 0.002560660637654733,
+      "standard_error": 6.640885247044142e-06,
+      "z_difference": 0.12455681420219834,
+      "n_test": 400000
+    }
+  ],
+  "fit_count_recomputed": 0,
+  "initial_pole_alignment_count_recomputed": 0,
+  "current_pole_alignment_count_recomputed": 0,
+  "sampled_indices_in_range": true,
+  "empirical_init_variance_w": 0.055147039414697716,
+  "empirical_init_variance_effective_output": 0.11552450332245676
+}

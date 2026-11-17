@@ -1,0 +1,274 @@
+{
+  "number": 1,
+  "filename": "sampling_dataset_size",
+  "label": "tab:h-sampling",
+  "headers": [
+    "$m$",
+    "Sampling",
+    "$M$",
+    "$\\tau$",
+    "Fits",
+    "$E_{\\rm pool}$",
+    "Log corr."
+  ],
+  "rows": [
+    {
+      "id": "baseline_online_m4_MNone",
+      "cells": [
+        "4",
+        "Online",
+        "--",
+        "0.003",
+        "20/20",
+        "0.0474",
+        "0.9746"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 4,
+        "sampling": "online",
+        "dataset_size": null,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.04736592252439442,
+        "log_correlation": 0.9745969777450646
+      }
+    },
+    {
+      "id": "baseline_fixed_m4_M2000",
+      "cells": [
+        "4",
+        "Fixed",
+        "2000",
+        "0.003",
+        "20/20",
+        "0.0383",
+        "0.9668"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 4,
+        "sampling": "fixed",
+        "dataset_size": 2000,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.03831561306457737,
+        "log_correlation": 0.966831709751968
+      }
+    },
+    {
+      "id": "baseline_online_m16_MNone",
+      "cells": [
+        "16",
+        "Online",
+        "--",
+        "0.003",
+        "20/20",
+        "0.0589",
+        "0.9718"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 16,
+        "sampling": "online",
+        "dataset_size": null,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.05886751597076312,
+        "log_correlation": 0.9718299701691183
+      }
+    },
+    {
+      "id": "baseline_fixed_m16_M2000",
+      "cells": [
+        "16",
+        "Fixed",
+        "2000",
+        "0.003",
+        "20/20",
+        "0.0853",
+        "0.9488"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 16,
+        "sampling": "fixed",
+        "dataset_size": 2000,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.08532481297451072,
+        "log_correlation": 0.9487989869495786
+      }
+    },
+    {
+      "id": "baseline_online_m64_MNone",
+      "cells": [
+        "64",
+        "Online",
+        "--",
+        "0.003",
+        "20/20",
+        "0.0732",
+        "0.9665"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 64,
+        "sampling": "online",
+        "dataset_size": null,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.07317684194981519,
+        "log_correlation": 0.9665412084591374
+      }
+    },
+    {
+      "id": "baseline_fixed_m64_M2000",
+      "cells": [
+        "64",
+        "Fixed",
+        "2000",
+        "0.003",
+        "20/20",
+        "0.0858",
+        "0.9555"
+      ],
+      "values": {
+        "block": "baseline",
+        "width": 64,
+        "sampling": "fixed",
+        "dataset_size": 2000,
+        "tau": 0.003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.08579056250928756,
+        "log_correlation": 0.9554928589580728
+      }
+    },
+    {
+      "id": "small_step_online_m16_MNone",
+      "cells": [
+        "16",
+        "Online",
+        "--",
+        "0.0003",
+        "20/20",
+        "0.0189",
+        "0.9970"
+      ],
+      "values": {
+        "block": "small_step",
+        "width": 16,
+        "sampling": "online",
+        "dataset_size": null,
+        "tau": 0.0003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.018876950397353327,
+        "log_correlation": 0.9969532281401606
+      }
+    },
+    {
+      "id": "small_step_fixed_m16_M500",
+      "cells": [
+        "16",
+        "Fixed",
+        "500",
+        "0.0003",
+        "20/20",
+        "0.0857",
+        "0.9485"
+      ],
+      "values": {
+        "block": "small_step",
+        "width": 16,
+        "sampling": "fixed",
+        "dataset_size": 500,
+        "tau": 0.0003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.08572647607476458,
+        "log_correlation": 0.9485429862741808
+      }
+    },
+    {
+      "id": "small_step_fixed_m16_M2000",
+      "cells": [
+        "16",
+        "Fixed",
+        "2000",
+        "0.0003",
+        "20/20",
+        "0.0459",
+        "0.9831"
+      ],
+      "values": {
+        "block": "small_step",
+        "width": 16,
+        "sampling": "fixed",
+        "dataset_size": 2000,
+        "tau": 0.0003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.045862653914240555,
+        "log_correlation": 0.9831462095835235
+      }
+    },
+    {
+      "id": "small_step_fixed_m16_M8000",
+      "cells": [
+        "16",
+        "Fixed",
+        "8000",
+        "0.0003",
+        "20/20",
+        "0.0269",
+        "0.9931"
+      ],
+      "values": {
+        "block": "small_step",
+        "width": 16,
+        "sampling": "fixed",
+        "dataset_size": 8000,
+        "tau": 0.0003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.02689254407919163,
+        "log_correlation": 0.9930680641744326
+      }
+    },
+    {
+      "id": "small_step_fixed_m16_M32000",
+      "cells": [
+        "16",
+        "Fixed",
+        "32000",
+        "0.0003",
+        "20/20",
+        "0.0237",
+        "0.9955"
+      ],
+      "values": {
+        "block": "small_step",
+        "width": 16,
+        "sampling": "fixed",
+        "dataset_size": 32000,
+        "tau": 0.0003,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "pooled_log_error": 0.02367237665858232,
+        "log_correlation": 0.9954955801282347
+      }
+    }
+  ],
+  "caption": "Online and fixed-dataset SGD ($B=1$, 20 seeds per row). Allocation is evaluated at the first monitored loss at most $10^{-6}$. $E_{\\rm pool}$ pools absolute log-share errors over neurons and fitted runs. The lower block is the separate dataset-size sweep at a smaller learning rate.",
+  "align": "rlrrrrr",
+  "breaks": [
+    6
+  ]
+}

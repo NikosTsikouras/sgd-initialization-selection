@@ -1,0 +1,145 @@
+{
+  "number": 5,
+  "filename": "nonlinear_teachers",
+  "label": "tab:h-nonlinear",
+  "headers": [
+    "$k$",
+    "$m$",
+    "Step",
+    "Test loss",
+    "Angle (rad)",
+    "$E_{\\rm pool}$",
+    "Uniform"
+  ],
+  "rows": [
+    {
+      "id": "k1_m4",
+      "cells": [
+        "1",
+        "4",
+        "40k",
+        "0.01439",
+        "0.0751",
+        "0.0459",
+        "0.1690"
+      ],
+      "values": {
+        "k": 1,
+        "width": 4,
+        "step": 40000,
+        "test_loss_median": 0.014391451984558944,
+        "max_angle_median": 0.07505248842351525,
+        "pooled_log_error": 0.04588588447790219,
+        "uniform_pooled_log_error": 0.16899791703264472
+      }
+    },
+    {
+      "id": "k1_m16",
+      "cells": [
+        "1",
+        "16",
+        "40k",
+        "0.01431",
+        "0.0870",
+        "0.0696",
+        "0.2597"
+      ],
+      "values": {
+        "k": 1,
+        "width": 16,
+        "step": 40000,
+        "test_loss_median": 0.014314031332359346,
+        "max_angle_median": 0.08704451016892667,
+        "pooled_log_error": 0.0695851192288475,
+        "uniform_pooled_log_error": 0.25974870881542134
+      }
+    },
+    {
+      "id": "k1_m64",
+      "cells": [
+        "1",
+        "64",
+        "40k",
+        "0.01429",
+        "0.1060",
+        "0.0665",
+        "0.3008"
+      ],
+      "values": {
+        "k": 1,
+        "width": 64,
+        "step": 40000,
+        "test_loss_median": 0.014291417656799227,
+        "max_angle_median": 0.10604284486809396,
+        "pooled_log_error": 0.06654417768258582,
+        "uniform_pooled_log_error": 0.30080210826940584
+      }
+    },
+    {
+      "id": "k3_m4",
+      "cells": [
+        "3",
+        "4",
+        "80k",
+        "0.00922",
+        "0.1966",
+        "0.0390",
+        "0.1755"
+      ],
+      "values": {
+        "k": 3,
+        "width": 4,
+        "step": 80000,
+        "test_loss_median": 0.009221031925843037,
+        "max_angle_median": 0.19655062218382613,
+        "pooled_log_error": 0.039017202966780254,
+        "uniform_pooled_log_error": 0.17553071690477826
+      }
+    },
+    {
+      "id": "k3_m16",
+      "cells": [
+        "3",
+        "16",
+        "80k",
+        "0.00926",
+        "0.3186",
+        "0.0601",
+        "0.2657"
+      ],
+      "values": {
+        "k": 3,
+        "width": 16,
+        "step": 80000,
+        "test_loss_median": 0.009257387779802312,
+        "max_angle_median": 0.3185986928730842,
+        "pooled_log_error": 0.06007589557377682,
+        "uniform_pooled_log_error": 0.265733517410098
+      }
+    },
+    {
+      "id": "k3_m64",
+      "cells": [
+        "3",
+        "64",
+        "80k",
+        "0.00916",
+        "0.4168",
+        "0.0577",
+        "0.2977"
+      ],
+      "values": {
+        "k": 3,
+        "width": 64,
+        "step": 80000,
+        "test_loss_median": 0.009158326175029326,
+        "max_angle_median": 0.41675506027380305,
+        "pooled_log_error": 0.05771506501564825,
+        "uniform_pooled_log_error": 0.2976540906182188
+      }
+    }
+  ],
+  "caption": "Nonlinear teachers $y(x)=\\tanh(k\\theta_\\star^\\top x)/k$ with a ReLU student, fixed $M=2000$ and $B=1$ (20 seeds per row). Loss and maximum angle are medians across runs; allocation errors pool neurons across runs. All measurements use the final checkpoint, and no run reaches loss $10^{-6}$.",
+  "align": "rrrrrrr",
+  "breaks": []
+}

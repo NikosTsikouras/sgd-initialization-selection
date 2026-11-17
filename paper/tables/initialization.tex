@@ -1,0 +1,30 @@
+% Generated from experiment results by scripts/make_tables.py.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Initialization & Fits & \shortstack{Max. angle\\(rad)} & \shortstack{Allocation\\error} & Uniform \\
+\midrule
+Baseline & 20/20 & 0.013 & 0.0902 & 0.36 \\
+Scale $0.25\times$ & 20/20 & 0.004 & 0.0906 & 0.32 \\
+Scale $0.5\times$ & 20/20 & 0.007 & 0.1016 & 0.35 \\
+Scale $2\times$ & 20/20 & 0.024 & 0.0855 & 0.35 \\
+Scale $5\times$ & 20/20 & 0.059 & 0.0812 & 0.33 \\
+Scale $20\times$ & 0/20 & 0.21$^{*}$ & -- & -- \\
+Scale $100\times$ & 0/20 & 0.80$^{*}$ & -- & -- \\
+Xavier normal & 0/20 & 1.83$^{*}$ & -- & -- \\
+Unrestricted directions & 20/20 & 0.014 & 0.0905 & 0.34 \\
+25\% violating angle condition & 20/20 & 0.025 & 0.1319 & 0.93 \\
+100\% violating angle condition & 20/20 & 0.010 & 0.1888 & 0.60 \\
+Bounded independent magnitudes & 20/20 & 0.016 & 0.0866 & 0.36 \\
+Wide layer ratios & 20/20 & 0.19$^{\dagger}$ & 0.135$^{\dagger}$ & 0.99$^{\dagger}$ \\
+i.i.d. Gaussian $a$ & 20/20 & 0.12$^{\dagger}$ & 0.177$^{\dagger}$ & 1.45$^{\dagger}$ \\
+i.i.d. Gaussian $a$, unrestricted directions & 20/20 & 0.18$^{\dagger}$ & 0.165$^{\dagger}$ & 1.28$^{\dagger}$ \\
+Small Gaussian $a,w$ & 20/20 & 0.18$^{\dagger}$ & 0.140$^{\dagger}$ & 1.39$^{\dagger}$ \\
+\bottomrule
+\end{tabular}
+\caption{Initialization ablations ($M=8192$, 20 seeds per condition, 15,000 updates). Angles are medians across runs of the maximum neuron angle to the initial sign-selected teacher pole, except $\dagger$ entries, which use current signs. Measurements are at the first fitting checkpoint, except $*$ entries, measured at the end of the budget. Allocation errors are medians across runs of the within-run mean absolute log-share error; ``Uniform'' uses the corresponding uniform prediction. For $\dagger$ allocation and uniform errors, only neurons retaining their initial sign are included, predictions and observations are renormalized within each retained sign class, and classes with fewer than two retained neurons are excluded. Dashes indicate no fit.}
+\label{tab:h-initialization}
+\end{table}

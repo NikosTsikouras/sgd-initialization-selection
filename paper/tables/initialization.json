@@ -1,0 +1,353 @@
+{
+  "number": 2,
+  "filename": "initialization",
+  "label": "tab:h-initialization",
+  "headers": [
+    "Initialization",
+    "Fits",
+    "\\shortstack{Max. angle\\\\(rad)}",
+    "\\shortstack{Allocation\\\\error}",
+    "Uniform"
+  ],
+  "rows": [
+    {
+      "id": "paper-like",
+      "cells": [
+        "Baseline",
+        "20/20",
+        "0.013",
+        "0.0902",
+        "0.36"
+      ],
+      "values": {
+        "condition": "paper-like",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.01294053473573403,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.09022979,
+        "uniform_mean_error_median": 0.3581221466479937,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "0.25x",
+      "cells": [
+        "Scale $0.25\\times$",
+        "20/20",
+        "0.004",
+        "0.0906",
+        "0.32"
+      ],
+      "values": {
+        "condition": "0.25x",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.004085256924492237,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.090585905,
+        "uniform_mean_error_median": 0.32078294406227115,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "0.5x",
+      "cells": [
+        "Scale $0.5\\times$",
+        "20/20",
+        "0.007",
+        "0.1016",
+        "0.35"
+      ],
+      "values": {
+        "condition": "0.5x",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.0068149717713648405,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.1016305975,
+        "uniform_mean_error_median": 0.34849499717062427,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "2x",
+      "cells": [
+        "Scale $2\\times$",
+        "20/20",
+        "0.024",
+        "0.0855",
+        "0.35"
+      ],
+      "values": {
+        "condition": "2x",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.02392166686007036,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.085519906,
+        "uniform_mean_error_median": 0.3459186127708169,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "5x",
+      "cells": [
+        "Scale $5\\times$",
+        "20/20",
+        "0.059",
+        "0.0812",
+        "0.33"
+      ],
+      "values": {
+        "condition": "5x",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.058630009549533804,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.081220455,
+        "uniform_mean_error_median": 0.33496408078076034,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "20x",
+      "cells": [
+        "Scale $20\\times$",
+        "0/20",
+        "0.21$^{*}$",
+        "--",
+        "--"
+      ],
+      "values": {
+        "condition": "20x",
+        "n_fitted": 0,
+        "n_runs": 20,
+        "angle_radians": 0.20772631249885443,
+        "angle_poles": "initial",
+        "checkpoint": "final",
+        "allocation_mean_error_median": null,
+        "uniform_mean_error_median": null,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "100x",
+      "cells": [
+        "Scale $100\\times$",
+        "0/20",
+        "0.80$^{*}$",
+        "--",
+        "--"
+      ],
+      "values": {
+        "condition": "100x",
+        "n_fitted": 0,
+        "n_runs": 20,
+        "angle_radians": 0.8042192355455945,
+        "angle_poles": "initial",
+        "checkpoint": "final",
+        "allocation_mean_error_median": null,
+        "uniform_mean_error_median": null,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "xavier_normal",
+      "cells": [
+        "Xavier normal",
+        "0/20",
+        "1.83$^{*}$",
+        "--",
+        "--"
+      ],
+      "values": {
+        "condition": "xavier_normal",
+        "n_fitted": 0,
+        "n_runs": 20,
+        "angle_radians": 1.8261772957362434,
+        "angle_poles": "initial",
+        "checkpoint": "final",
+        "allocation_mean_error_median": null,
+        "uniform_mean_error_median": null,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "unrestricted",
+      "cells": [
+        "Unrestricted directions",
+        "20/20",
+        "0.014",
+        "0.0905",
+        "0.34"
+      ],
+      "values": {
+        "condition": "unrestricted",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.013754206273082699,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.090453505,
+        "uniform_mean_error_median": 0.3439168549454207,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "25% violating",
+      "cells": [
+        "25\\% violating angle condition",
+        "20/20",
+        "0.025",
+        "0.1319",
+        "0.93"
+      ],
+      "values": {
+        "condition": "25% violating",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.024996345493004238,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.13191223000000002,
+        "uniform_mean_error_median": 0.9333157604735748,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "100% violating",
+      "cells": [
+        "100\\% violating angle condition",
+        "20/20",
+        "0.010",
+        "0.1888",
+        "0.60"
+      ],
+      "values": {
+        "condition": "100% violating",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.009657261925787405,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.18876195,
+        "uniform_mean_error_median": 0.5975582295777939,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "bounded independent",
+      "cells": [
+        "Bounded independent magnitudes",
+        "20/20",
+        "0.016",
+        "0.0866",
+        "0.36"
+      ],
+      "values": {
+        "condition": "bounded independent",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.015546459749214448,
+        "angle_poles": "initial",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.08657261999999999,
+        "uniform_mean_error_median": 0.36449919123798613,
+        "retained_neurons": false
+      }
+    },
+    {
+      "id": "wide layer ratios",
+      "cells": [
+        "Wide layer ratios",
+        "20/20",
+        "0.19$^{\\dagger}$",
+        "0.135$^{\\dagger}$",
+        "0.99$^{\\dagger}$"
+      ],
+      "values": {
+        "condition": "wide layer ratios",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.19123157773498864,
+        "angle_poles": "current",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.13500634495854885,
+        "uniform_mean_error_median": 0.9888196862299585,
+        "retained_neurons": true
+      }
+    },
+    {
+      "id": "iid Gaussian output",
+      "cells": [
+        "i.i.d. Gaussian $a$",
+        "20/20",
+        "0.12$^{\\dagger}$",
+        "0.177$^{\\dagger}$",
+        "1.45$^{\\dagger}$"
+      ],
+      "values": {
+        "condition": "iid Gaussian output",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.11770151694557597,
+        "angle_poles": "current",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.17675420715680948,
+        "uniform_mean_error_median": 1.4491732826086654,
+        "retained_neurons": true
+      }
+    },
+    {
+      "id": "iid Gaussian output, unrestricted dirs",
+      "cells": [
+        "i.i.d. Gaussian $a$, unrestricted directions",
+        "20/20",
+        "0.18$^{\\dagger}$",
+        "0.165$^{\\dagger}$",
+        "1.28$^{\\dagger}$"
+      ],
+      "values": {
+        "condition": "iid Gaussian output, unrestricted dirs",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.1819544061434272,
+        "angle_poles": "current",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.16528636992754428,
+        "uniform_mean_error_median": 1.2754555151038665,
+        "retained_neurons": true
+      }
+    },
+    {
+      "id": "Gaussian both layers, small scale",
+      "cells": [
+        "Small Gaussian $a,w$",
+        "20/20",
+        "0.18$^{\\dagger}$",
+        "0.140$^{\\dagger}$",
+        "1.39$^{\\dagger}$"
+      ],
+      "values": {
+        "condition": "Gaussian both layers, small scale",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "angle_radians": 0.17584359992991544,
+        "angle_poles": "current",
+        "checkpoint": "first_fit",
+        "allocation_mean_error_median": 0.14033213681913348,
+        "uniform_mean_error_median": 1.3902768960976921,
+        "retained_neurons": true
+      }
+    }
+  ],
+  "caption": "Initialization ablations ($M=8192$, 20 seeds per condition, 15,000 updates). Angles are medians across runs of the maximum neuron angle to the initial sign-selected teacher pole, except $\\dagger$ entries, which use current signs. Measurements are at the first fitting checkpoint, except $*$ entries, measured at the end of the budget. Allocation errors are medians across runs of the within-run mean absolute log-share error; ``Uniform'' uses the corresponding uniform prediction. For $\\dagger$ allocation and uniform errors, only neurons retaining their initial sign are included, predictions and observations are renormalized within each retained sign class, and classes with fewer than two retained neurons are excluded. Dashes indicate no fit.",
+  "align": "lrrrr",
+  "breaks": []
+}

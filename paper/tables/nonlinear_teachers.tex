@@ -1,0 +1,20 @@
+% Generated from experiment results by scripts/make_tables.py.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rrrrrrr}
+\toprule
+$k$ & $m$ & Step & Test loss & Angle (rad) & $E_{\rm pool}$ & Uniform \\
+\midrule
+1 & 4 & 40k & 0.01439 & 0.0751 & 0.0459 & 0.1690 \\
+1 & 16 & 40k & 0.01431 & 0.0870 & 0.0696 & 0.2597 \\
+1 & 64 & 40k & 0.01429 & 0.1060 & 0.0665 & 0.3008 \\
+3 & 4 & 80k & 0.00922 & 0.1966 & 0.0390 & 0.1755 \\
+3 & 16 & 80k & 0.00926 & 0.3186 & 0.0601 & 0.2657 \\
+3 & 64 & 80k & 0.00916 & 0.4168 & 0.0577 & 0.2977 \\
+\bottomrule
+\end{tabular}
+\caption{Nonlinear teachers $y(x)=\tanh(k\theta_\star^\top x)/k$ with a ReLU student, fixed $M=2000$ and $B=1$ (20 seeds per row). Loss and maximum angle are medians across runs; allocation errors pool neurons across runs. All measurements use the final checkpoint, and no run reaches loss $10^{-6}$.}
+\label{tab:h-nonlinear}
+\end{table}

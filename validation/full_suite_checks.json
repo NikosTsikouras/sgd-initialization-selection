@@ -1,0 +1,300 @@
+{
+  "result": "PASS_AT_PUBLISHED_PRECISION",
+  "scope": "Full runs of all 12 experiment groups in a copied release and clean CPU environment; experimental code/results only, not a review or proof of the unchanged theoretical arguments.",
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.5",
+      "pandas": "3.1.1",
+      "torch": "2.15.0",
+      "matplotlib": "3.11.2",
+      "reportlab": "5.1.0"
+    }
+  },
+  "execution": {
+    "groups_completed": [
+      "alignment",
+      "allocation",
+      "sampling",
+      "dataset_size",
+      "scale",
+      "rate",
+      "initialization",
+      "xavier",
+      "inputs",
+      "anisotropic",
+      "noise",
+      "nonlinear"
+    ],
+    "group_count": 12,
+    "batch_groups": [
+      [
+        "alignment",
+        "allocation",
+        "xavier"
+      ],
+      [
+        "sampling",
+        "dataset_size",
+        "scale",
+        "initialization",
+        "inputs",
+        "nonlinear"
+      ],
+      [
+        "rate",
+        "anisotropic",
+        "noise"
+      ]
+    ],
+    "normalized_commands": [
+      "python scripts/run_experiments.py --groups alignment,allocation,xavier --output results",
+      "python scripts/run_experiments.py --groups sampling,dataset_size,scale,initialization,inputs,nonlinear --output results",
+      "python scripts/run_experiments.py --groups rate,anisotropic,noise --output results"
+    ],
+    "note": "The suite was executed in three invocations, not one uninterrupted --groups all invocation. The launcher overwrites run_configuration.json after each successful invocation; the final saved configuration covers rate,anisotropic,noise. Earlier batches are corroborated by their completion files and the separate rerun reports.",
+    "last_completed_configuration": {
+      "groups": [
+        "rate",
+        "anisotropic",
+        "noise"
+      ],
+      "initialization_device": "cpu",
+      "n_seeds": 20,
+      "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+      "command": [
+        "scripts/run_experiments.py",
+        "--groups",
+        "rate,anisotropic,noise",
+        "--output",
+        "results"
+      ]
+    },
+    "completion_outputs": [
+      {
+        "group": "alignment",
+        "completion_outputs": [
+          "main/figure2_fixed_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "allocation",
+        "completion_outputs": [
+          "main/verification.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "sampling",
+        "completion_outputs": [
+          "core/exp1B_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "dataset_size",
+        "completion_outputs": [
+          "core/exp1C_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "scale",
+        "completion_outputs": [
+          "core/exp2_alpha_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "rate",
+        "completion_outputs": [
+          "core/exp2_tau_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "initialization",
+        "completion_outputs": [
+          "initialization/reviewer2_v2_individual_runs.csv"
+        ],
+        "completed": true
+      },
+      {
+        "group": "xavier",
+        "completion_outputs": [
+          "xavier/summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "inputs",
+        "completion_outputs": [
+          "core/exp3B16_summary.json",
+          "core/exp3B64_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "anisotropic",
+        "completion_outputs": [
+          "core/exp4_summary.json",
+          "core/exp4_controls_summary.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "noise",
+        "completion_outputs": [
+          "core/exp5_M2000_summary.json",
+          "core/exp5_M200_summary.json",
+          "core/exp5_analysis.json"
+        ],
+        "completed": true
+      },
+      {
+        "group": "nonlinear",
+        "completion_outputs": [
+          "nonlinear/exp8_tanh1_summary.json",
+          "nonlinear/exp8_tanh3_summary.json"
+        ],
+        "completed": true
+      }
+    ]
+  },
+  "fresh_output_regeneration": {
+    "commands": [
+      "python scripts/make_tables.py --data-dir results --output build/fresh/tables",
+      "python scripts/verify_tables.py --tables-dir build/fresh/tables",
+      "python scripts/make_figures.py --data-dir results --output build/fresh/figures"
+    ],
+    "tables": [
+      {
+        "table": 1,
+        "rows": 11,
+        "numeric_entries": 73
+      },
+      {
+        "table": 2,
+        "rows": 16,
+        "numeric_entries": 74
+      },
+      {
+        "table": 3,
+        "rows": 10,
+        "numeric_entries": 60
+      },
+      {
+        "table": 4,
+        "rows": 25,
+        "numeric_entries": 151
+      },
+      {
+        "table": 5,
+        "rows": 6,
+        "numeric_entries": 42
+      }
+    ],
+    "total_table_rows": 68,
+    "total_numeric_entries": 400,
+    "figures": [
+      {
+        "filename": "appendix_noise.pdf",
+        "fresh_sha256": "d931c57888219ae9d0a6dd3f77af20c98c25e7d27f9a14cb6b393e307c55a428",
+        "reference_sha256": "d931c57888219ae9d0a6dd3f77af20c98c25e7d27f9a14cb6b393e307c55a428",
+        "byte_identical_to_reference_regeneration": true
+      },
+      {
+        "filename": "appendix_scale_rate.pdf",
+        "fresh_sha256": "bc738dd10ab5cef4becc30b9cbeb8ee8ab7a40f5116942cede35337e768b311c",
+        "reference_sha256": "bc738dd10ab5cef4becc30b9cbeb8ee8ab7a40f5116942cede35337e768b311c",
+        "byte_identical_to_reference_regeneration": true
+      },
+      {
+        "filename": "figure2a_fixed_dataset.pdf",
+        "fresh_sha256": "4d87db60cd41af7c18ce53f973d7596d60006eccd7d8fa884938dd15b72e5b8b",
+        "reference_sha256": "4d87db60cd41af7c18ce53f973d7596d60006eccd7d8fa884938dd15b72e5b8b",
+        "byte_identical_to_reference_regeneration": true
+      },
+      {
+        "filename": "figure2b_fixed_dataset.pdf",
+        "fresh_sha256": "0accbae07209c7e7d4a7fbb6e17a2adb51d277f225bf4aa83bf322b219e913f6",
+        "reference_sha256": "0accbae07209c7e7d4a7fbb6e17a2adb51d277f225bf4aa83bf322b219e913f6",
+        "byte_identical_to_reference_regeneration": true
+      },
+      {
+        "filename": "figure3_fixed_dataset.pdf",
+        "fresh_sha256": "302252aa7374130f106bd6a663c837bbd15cb2312105753fdab40c58249e3919",
+        "reference_sha256": "302252aa7374130f106bd6a663c837bbd15cb2312105753fdab40c58249e3919",
+        "byte_identical_to_reference_regeneration": true
+      }
+    ]
+  },
+  "table4_raw_quantities": {
+    "rows": 25,
+    "numeric_quantities_compared": 151,
+    "max_absolute_difference": 1.4502288259166107e-15,
+    "result": "PASS"
+  },
+  "figure4_plotted_quantities": [
+    {
+      "sweep": "alpha",
+      "conditions": 7,
+      "fitting_allocation_values": 4,
+      "all_counts_and_missing_masks_identical": true,
+      "max_absolute_allocation_difference": 4.996003610813204e-16,
+      "result": "PASS"
+    },
+    {
+      "sweep": "tau",
+      "conditions": 8,
+      "fitting_allocation_values": 7,
+      "all_counts_and_missing_masks_identical": true,
+      "max_absolute_allocation_difference": 1.2212453270876722e-15,
+      "result": "PASS"
+    }
+  ],
+  "figure5_plotted_quantities": {
+    "conditions_and_checkpoints": 96,
+    "total_y_values": 288,
+    "fields": [
+      {
+        "field": "max_angle_to_theta",
+        "plotted_values": 96,
+        "max_absolute_difference": 6.952771691715043e-15,
+        "result": "PASS"
+      },
+      {
+        "field": "alloc_err_vs_pred",
+        "plotted_values": 96,
+        "max_absolute_difference": 2.4702462297909733e-15,
+        "result": "PASS"
+      },
+      {
+        "field": "drift_vs_t10k",
+        "plotted_values": 96,
+        "max_absolute_difference": 3.1086244689504383e-15,
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "all_noise_summary_quantities": {
+    "records": 120,
+    "numeric_diagnostics_compared": 4080,
+    "max_absolute_difference": 1.7930101847696278e-14,
+    "result": "PASS"
+  },
+  "floating_point_precision": {
+    "atol": 1e-09,
+    "rtol": 1e-09,
+    "main_and_xavier": "80 raw arrays match exactly; see main_rerun_checks.json.",
+    "initialization": "All published Table 2 values match. Float32 diagnostics are not bitwise identical across runtime versions: largest unrounded table aggregate deviation is 9.17546e-6 radians. Fit status, fitting checkpoint, unchanged-sign fit status and changed-sign fractions agree exactly for the 300 original reported initialization runs. See additional_rerun_checks.json.",
+    "other_reported_results": "Verified plotted and table numeric quantities agree within 1e-9; raw full checkpoints for every additional experiment were not present in the original archives, so the comparison uses preserved summaries where necessary."
+  },
+  "related_reports": [
+    "main_rerun_checks.json",
+    "additional_rerun_checks.json"
+  ],
+  "pending": []
+}

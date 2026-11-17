@@ -1,0 +1,596 @@
+{
+  "number": 4,
+  "filename": "anisotropic",
+  "label": "tab:h-anisotropic",
+  "headers": [
+    "Teacher",
+    "$\\kappa$",
+    "$\\tau$",
+    "Budget",
+    "Fits",
+    "$E_\\theta$",
+    "$E_{\\Sigma\\theta}$"
+  ],
+  "rows": [
+    {
+      "id": "main_top_k1",
+      "cells": [
+        "Top",
+        "1",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0763",
+        "0.0763"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 1,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.07628511222430964,
+        "covariance_pooled_log_error": 0.07628511222430964
+      }
+    },
+    {
+      "id": "main_top_k3",
+      "cells": [
+        "Top",
+        "3",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0671",
+        "0.0671"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 3,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.0671258434975936,
+        "covariance_pooled_log_error": 0.0671258434975936
+      }
+    },
+    {
+      "id": "main_top_k10",
+      "cells": [
+        "Top",
+        "10",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0600",
+        "0.0600"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 10,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.060022387771184904,
+        "covariance_pooled_log_error": 0.060022387771184904
+      }
+    },
+    {
+      "id": "main_top_k30",
+      "cells": [
+        "Top",
+        "30",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0562",
+        "0.0562"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 30,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.05623876794467761,
+        "covariance_pooled_log_error": 0.05623876794467761
+      }
+    },
+    {
+      "id": "main_top_k100",
+      "cells": [
+        "Top",
+        "100",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0528",
+        "0.0528"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 100,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.052836823587942214,
+        "covariance_pooled_log_error": 0.052836823587942214
+      }
+    },
+    {
+      "id": "main_top_k300",
+      "cells": [
+        "Top",
+        "300",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0470",
+        "0.0470"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 300,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.04704617394261462,
+        "covariance_pooled_log_error": 0.04704617394261462
+      }
+    },
+    {
+      "id": "main_top_k1000",
+      "cells": [
+        "Top",
+        "1000",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0452",
+        "0.0452"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "top",
+        "kappa": 1000,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.04520903525977385,
+        "covariance_pooled_log_error": 0.04520903525977385
+      }
+    },
+    {
+      "id": "main_bottom_k3",
+      "cells": [
+        "Bottom",
+        "3",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.0956",
+        "0.0956"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 3,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.09562292038985186,
+        "covariance_pooled_log_error": 0.09562292038985186
+      }
+    },
+    {
+      "id": "main_bottom_k10",
+      "cells": [
+        "Bottom",
+        "10",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 10,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_bottom_k30",
+      "cells": [
+        "Bottom",
+        "30",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 30,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_bottom_k100",
+      "cells": [
+        "Bottom",
+        "100",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 100,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_bottom_k300",
+      "cells": [
+        "Bottom",
+        "300",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 300,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_bottom_k1000",
+      "cells": [
+        "Bottom",
+        "1000",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "bottom",
+        "kappa": 1000,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_mixed_k3",
+      "cells": [
+        "Mixed",
+        "3",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.1467",
+        "0.0781"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 3,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.14667522541165112,
+        "covariance_pooled_log_error": 0.07814532929265422
+      }
+    },
+    {
+      "id": "main_mixed_k10",
+      "cells": [
+        "Mixed",
+        "10",
+        "0.003",
+        "40k",
+        "20/20",
+        "0.1753",
+        "0.0691"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 10,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.17532355813274808,
+        "covariance_pooled_log_error": 0.06913067998594818
+      }
+    },
+    {
+      "id": "main_mixed_k30",
+      "cells": [
+        "Mixed",
+        "30",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 30,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_mixed_k100",
+      "cells": [
+        "Mixed",
+        "100",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 100,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_mixed_k300",
+      "cells": [
+        "Mixed",
+        "300",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 300,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "main_mixed_k1000",
+      "cells": [
+        "Mixed",
+        "1000",
+        "0.003",
+        "40k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "main",
+        "teacher_placement": "mixed",
+        "kappa": 1000,
+        "tau": 0.003,
+        "budget": 40000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "control_bottom_k10",
+      "cells": [
+        "Bottom",
+        "10",
+        "0.0003",
+        "400k",
+        "14/20",
+        "0.0864",
+        "0.0864"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "bottom",
+        "kappa": 10,
+        "tau": 0.0003,
+        "budget": 400000,
+        "n_fitted": 14,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.08638510342599223,
+        "covariance_pooled_log_error": 0.08638510342599223
+      }
+    },
+    {
+      "id": "control_bottom_k30",
+      "cells": [
+        "Bottom",
+        "30",
+        "0.0001",
+        "1200k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "bottom",
+        "kappa": 30,
+        "tau": 0.0001,
+        "budget": 1200000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "control_bottom_k100",
+      "cells": [
+        "Bottom",
+        "100",
+        "0.00003",
+        "4000k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "bottom",
+        "kappa": 100,
+        "tau": 3e-05,
+        "budget": 4000000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    },
+    {
+      "id": "control_mixed_k30",
+      "cells": [
+        "Mixed",
+        "30",
+        "0.003",
+        "400k",
+        "20/20",
+        "0.1800",
+        "0.0653"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "mixed",
+        "kappa": 30,
+        "tau": 0.003,
+        "budget": 400000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.1799996507532925,
+        "covariance_pooled_log_error": 0.06528131982299135
+      }
+    },
+    {
+      "id": "control_mixed_k100",
+      "cells": [
+        "Mixed",
+        "100",
+        "0.003",
+        "400k",
+        "20/20",
+        "0.1917",
+        "0.0569"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "mixed",
+        "kappa": 100,
+        "tau": 0.003,
+        "budget": 400000,
+        "n_fitted": 20,
+        "n_runs": 20,
+        "original_pooled_log_error": 0.19167260134061398,
+        "covariance_pooled_log_error": 0.056871596510486205
+      }
+    },
+    {
+      "id": "control_mixed_k1000",
+      "cells": [
+        "Mixed",
+        "1000",
+        "0.003",
+        "400k",
+        "0/20",
+        "--",
+        "--"
+      ],
+      "values": {
+        "block": "control",
+        "teacher_placement": "mixed",
+        "kappa": 1000,
+        "tau": 0.003,
+        "budget": 400000,
+        "n_fitted": 0,
+        "n_runs": 20,
+        "original_pooled_log_error": null,
+        "covariance_pooled_log_error": null
+      }
+    }
+  ],
+  "caption": "Anisotropic Gaussian inputs and budget/step-size controls (20 seeds per row; $1\\mathrm{k}=1000$ updates). Top and bottom place the teacher along eigenvectors of the largest and smallest covariance eigenvalues; mixed uses their normalized sum. $E_\\theta$ and $E_{\\Sigma\\theta}$ are pooled median absolute log-share errors at fitting for the original and covariance-based predictions. The lower block reports the controls. The two predictions coincide when $\\theta_\\star$ is an eigenvector. Dashes indicate no fit.",
+  "align": "lrrrrrr",
+  "breaks": [
+    19
+  ]
+}

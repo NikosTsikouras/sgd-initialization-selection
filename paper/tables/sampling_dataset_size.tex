@@ -1,0 +1,26 @@
+% Generated from experiment results by scripts/make_tables.py.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rlrrrrr}
+\toprule
+$m$ & Sampling & $M$ & $\tau$ & Fits & $E_{\rm pool}$ & Log corr. \\
+\midrule
+4 & Online & -- & 0.003 & 20/20 & 0.0474 & 0.9746 \\
+4 & Fixed & 2000 & 0.003 & 20/20 & 0.0383 & 0.9668 \\
+16 & Online & -- & 0.003 & 20/20 & 0.0589 & 0.9718 \\
+16 & Fixed & 2000 & 0.003 & 20/20 & 0.0853 & 0.9488 \\
+64 & Online & -- & 0.003 & 20/20 & 0.0732 & 0.9665 \\
+64 & Fixed & 2000 & 0.003 & 20/20 & 0.0858 & 0.9555 \\
+\midrule
+16 & Online & -- & 0.0003 & 20/20 & 0.0189 & 0.9970 \\
+16 & Fixed & 500 & 0.0003 & 20/20 & 0.0857 & 0.9485 \\
+16 & Fixed & 2000 & 0.0003 & 20/20 & 0.0459 & 0.9831 \\
+16 & Fixed & 8000 & 0.0003 & 20/20 & 0.0269 & 0.9931 \\
+16 & Fixed & 32000 & 0.0003 & 20/20 & 0.0237 & 0.9955 \\
+\bottomrule
+\end{tabular}
+\caption{Online and fixed-dataset SGD ($B=1$, 20 seeds per row). Allocation is evaluated at the first monitored loss at most $10^{-6}$. $E_{\rm pool}$ pools absolute log-share errors over neurons and fitted runs. The lower block is the separate dataset-size sweep at a smaller learning rate.}
+\label{tab:h-sampling}
+\end{table}

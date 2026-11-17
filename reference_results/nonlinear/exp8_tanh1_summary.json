@@ -1,0 +1,311 @@
+[
+ {
+  "label": "tanh1 m=4 online B=128",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 4,
+  "batch": 128,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   4000.0,
+   4325.0,
+   4750.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.013686221812063555,
+   0.013690517702955953,
+   0.013696368337574939
+  ],
+  "final_max_angle_q": [
+   0.006569946910256014,
+   0.00887821532367377,
+   0.014013576594241815
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.0033304922182251506,
+   "p90_rel_err": 0.009238298276070757,
+   "max_log_err": 0.019065362895154796,
+   "log_corr": 0.9998403777192147,
+   "median_log_err_uniform_baseline": 0.16550059979161277,
+   "per_run_median_log_err_q": [
+    0.000208926166253375,
+    0.0033696063481756635,
+    0.010075931889522815
+   ]
+  },
+  "teacher": "tanh(kz)/k, k=1"
+ },
+ {
+  "label": "tanh1 m=4 fixed B=1",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 4,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   8250.0,
+   13850.0,
+   31050.0
+  ],
+  "n_aligned_005": 16,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.014081707117402056,
+   0.014391451984558944,
+   0.01473948130994233
+  ],
+  "final_max_angle_q": [
+   0.04688349577242084,
+   0.07505248842351525,
+   0.12244118538623419
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.04588588447790219,
+   "p90_rel_err": 0.11268483102174923,
+   "max_log_err": 0.23591893732874908,
+   "log_corr": 0.9733644765974115,
+   "median_log_err_uniform_baseline": 0.16899791703264472,
+   "per_run_median_log_err_q": [
+    0.008964220482437547,
+    0.04708527429998288,
+    0.09349825100131295
+   ]
+  },
+  "final_train_loss_q": [
+   0.012210752833059533,
+   0.013451125741965792,
+   0.01505102824893051
+  ],
+  "teacher": "tanh(kz)/k, k=1"
+ },
+ {
+  "label": "tanh1 m=16 online B=128",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 16,
+  "batch": 128,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   4350.0,
+   4550.0,
+   4800.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.01368488547171551,
+   0.013689727171316939,
+   0.013695881967467006
+  ],
+  "final_max_angle_q": [
+   0.01244395343157361,
+   0.013514406236583097,
+   0.01598860974021505
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.004542206898479095,
+   "p90_rel_err": 0.01179106185801351,
+   "max_log_err": 0.028164801027538582,
+   "log_corr": 0.9998564786817469,
+   "median_log_err_uniform_baseline": 0.2560398002021575,
+   "per_run_median_log_err_q": [
+    0.002619254097008639,
+    0.004895410159742849,
+    0.007639293528718153
+   ]
+  },
+  "teacher": "tanh(kz)/k, k=1"
+ },
+ {
+  "label": "tanh1 m=16 fixed B=1",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 16,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   9400.0,
+   10950.0,
+   14050.0
+  ],
+  "n_aligned_005": 5,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.014010189683003261,
+   0.014314031332359346,
+   0.014742273807472827
+  ],
+  "final_max_angle_q": [
+   0.061318416362060875,
+   0.08704451016892667,
+   0.11016594225764685
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.0695851192288475,
+   "p90_rel_err": 0.16629011594153661,
+   "max_log_err": 0.3576598227497872,
+   "log_corr": 0.9661328107918142,
+   "median_log_err_uniform_baseline": 0.25974870881542134,
+   "per_run_median_log_err_q": [
+    0.018223442404750524,
+    0.0865607652072455,
+    0.12281563381718472
+   ]
+  },
+  "final_train_loss_q": [
+   0.011704239285594074,
+   0.013931260415291288,
+   0.015632273916650157
+  ],
+  "teacher": "tanh(kz)/k, k=1"
+ },
+ {
+  "label": "tanh1 m=64 online B=128",
+  "mode": "online",
+  "M": null,
+  "d": 20,
+  "m": 64,
+  "batch": 128,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   4600.0,
+   4750.0,
+   4900.0
+  ],
+  "n_aligned_005": 20,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.01360577917754466,
+   0.01361099924196148,
+   0.013618349883639035
+  ],
+  "final_max_angle_q": [
+   0.014094591008866252,
+   0.015828764519158676,
+   0.0178220881567346
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.005000188331638034,
+   "p90_rel_err": 0.012615204513011583,
+   "max_log_err": 0.035049614258279196,
+   "log_corr": 0.9998489925209469,
+   "median_log_err_uniform_baseline": 0.29434439479975677,
+   "per_run_median_log_err_q": [
+    0.0037654166832749086,
+    0.0048227398808414375,
+    0.006191242869964206
+   ]
+  },
+  "teacher": "tanh(kz)/k, k=1"
+ },
+ {
+  "label": "tanh1 m=64 fixed B=1",
+  "mode": "fixed",
+  "M": 2000,
+  "d": 20,
+  "m": 64,
+  "batch": 1,
+  "dist": "gaussian",
+  "n_runs": 20,
+  "n_fitted": 0,
+  "n_diverged": 0,
+  "steps_run": 40000,
+  "fit_step_q": null,
+  "align_step_q": [
+   8800.0,
+   16500.0,
+   18500.0
+  ],
+  "n_aligned_005": 5,
+  "align_before_fit": 0,
+  "max_angle_at_fit_q": null,
+  "final_pop_loss_q": [
+   0.01397392401935349,
+   0.014291417656799227,
+   0.014616099427627685
+  ],
+  "final_max_angle_q": [
+   0.0701505464544865,
+   0.10604284486809396,
+   0.14011688391712565
+  ],
+  "alloc_at_fit": {
+   "n_runs": 0
+  },
+  "alloc_at_end": {
+   "n_runs": 20,
+   "median_log_err": 0.06654417768258582,
+   "p90_rel_err": 0.17750421238874337,
+   "max_log_err": 0.5145653292950267,
+   "log_corr": 0.9702787758299847,
+   "median_log_err_uniform_baseline": 0.30080210826940584,
+   "per_run_median_log_err_q": [
+    0.042752776457405134,
+    0.06793375679112561,
+    0.08758039879378093
+   ]
+  },
+  "final_train_loss_q": [
+   0.01255695790350708,
+   0.013670878794720679,
+   0.01569386244620569
+  ],
+  "teacher": "tanh(kz)/k, k=1"
+ }
+]

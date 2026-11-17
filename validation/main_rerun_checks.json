@@ -1,0 +1,1520 @@
+{
+  "result": "PASS",
+  "method": "Independent array-wise comparison of clean-environment full reruns with immutable release reference arrays. No new training performed by this audit.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "atol": 1e-09,
+    "rtol": 1e-09
+  },
+  "alignment_rerun_summary": {
+    "seed": 17,
+    "d": 2,
+    "m": 1000,
+    "M": 2000,
+    "B": 1,
+    "alpha": 0.01,
+    "tau": 0.003,
+    "steps": 12000,
+    "check_every": 20,
+    "alignment_step": 3540,
+    "fitting_step": 6440,
+    "final_population_loss": 6.382561146267562e-11,
+    "max_angle_at_fit": 0.02348069008734692,
+    "max_angle_between_first_alignment_and_fit": 0.0562108668311374,
+    "sustained_alignment_step": 4340,
+    "seconds": 10.38
+  },
+  "checks": [
+    {
+      "file": "main/figure2_fixed_M2000_seed17.npz",
+      "missing_keys": [],
+      "extra_keys": [],
+      "passed": true,
+      "n_arrays_compared": 15,
+      "maximum_array_difference": 0.0,
+      "arrays": [
+        {
+          "key": "X",
+          "reference_shape": [
+            1,
+            2000,
+            2
+          ],
+          "rerun_shape": [
+            1,
+            2000,
+            2
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a0",
+          "reference_shape": [
+            1,
+            1000
+          ],
+          "rerun_shape": [
+            1,
+            1000
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a_fit",
+          "reference_shape": [
+            1,
+            1000
+          ],
+          "rerun_shape": [
+            1,
+            1000
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "align_step",
+          "reference_shape": [
+            1
+          ],
+          "rerun_shape": [
+            1
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "class_mass",
+          "reference_shape": [
+            601,
+            2
+          ],
+          "rerun_shape": [
+            601,
+            2
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "dir_hist",
+          "reference_shape": [
+            601,
+            1000,
+            2
+          ],
+          "rerun_shape": [
+            601,
+            1000,
+            2
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "dir_hist_steps",
+          "reference_shape": [
+            601
+          ],
+          "rerun_shape": [
+            601
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "fit_step",
+          "reference_shape": [
+            1
+          ],
+          "rerun_shape": [
+            1
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "max_angle",
+          "reference_shape": [
+            601
+          ],
+          "rerun_shape": [
+            601
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "pop_loss",
+          "reference_shape": [
+            601
+          ],
+          "rerun_shape": [
+            601
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "signs",
+          "reference_shape": [
+            1000
+          ],
+          "rerun_shape": [
+            1000
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "steps",
+          "reference_shape": [
+            601
+          ],
+          "rerun_shape": [
+            601
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "w0",
+          "reference_shape": [
+            1,
+            1000,
+            2
+          ],
+          "rerun_shape": [
+            1,
+            1000,
+            2
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "w_fit",
+          "reference_shape": [
+            1,
+            1000,
+            2
+          ],
+          "rerun_shape": [
+            1,
+            1000,
+            2
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "y",
+          "reference_shape": [
+            1,
+            2000
+          ],
+          "rerun_shape": [
+            1,
+            2000
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        }
+      ],
+      "fits": 1,
+      "runs": 1,
+      "strictly_aligned_before_fit": 1
+    },
+    {
+      "file": "main/fixed_m4.npz",
+      "missing_keys": [],
+      "extra_keys": [],
+      "passed": true,
+      "n_arrays_compared": 13,
+      "maximum_array_difference": 0.0,
+      "arrays": [
+        {
+          "key": "a0",
+          "reference_shape": [
+            20,
+            4
+          ],
+          "rerun_shape": [
+            20,
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a_fit",
+          "reference_shape": [
+            20,
+            4
+          ],
+          "rerun_shape": [
+            20,
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "align_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "angles_fit",
+          "reference_shape": [
+            20,
+            4
+          ],
+          "rerun_shape": [
+            20,
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "fit_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "lam",
+          "reference_shape": [
+            20,
+            4
+          ],
+          "rerun_shape": [
+            20,
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "max_angle",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "pop_loss",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "shares_fit",
+          "reference_shape": [
+            20,
+            4
+          ],
+          "rerun_shape": [
+            20,
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "signs",
+          "reference_shape": [
+            4
+          ],
+          "rerun_shape": [
+            4
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "steps",
+          "reference_shape": [
+            1001
+          ],
+          "rerun_shape": [
+            1001
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "w0",
+          "reference_shape": [
+            20,
+            4,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            4,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "w_fit",
+          "reference_shape": [
+            20,
+            4,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            4,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        }
+      ],
+      "fits": 20,
+      "runs": 20,
+      "strictly_aligned_before_fit": 20
+    },
+    {
+      "file": "main/fixed_m16.npz",
+      "missing_keys": [],
+      "extra_keys": [],
+      "passed": true,
+      "n_arrays_compared": 13,
+      "maximum_array_difference": 0.0,
+      "arrays": [
+        {
+          "key": "a0",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a_fit",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "align_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "angles_fit",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "fit_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "lam",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "max_angle",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "pop_loss",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "shares_fit",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "signs",
+          "reference_shape": [
+            16
+          ],
+          "rerun_shape": [
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "steps",
+          "reference_shape": [
+            1001
+          ],
+          "rerun_shape": [
+            1001
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "w0",
+          "reference_shape": [
+            20,
+            16,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            16,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "w_fit",
+          "reference_shape": [
+            20,
+            16,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            16,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        }
+      ],
+      "fits": 20,
+      "runs": 20,
+      "strictly_aligned_before_fit": 20
+    },
+    {
+      "file": "main/fixed_m64.npz",
+      "missing_keys": [],
+      "extra_keys": [],
+      "passed": true,
+      "n_arrays_compared": 13,
+      "maximum_array_difference": 0.0,
+      "arrays": [
+        {
+          "key": "a0",
+          "reference_shape": [
+            20,
+            64
+          ],
+          "rerun_shape": [
+            20,
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a_fit",
+          "reference_shape": [
+            20,
+            64
+          ],
+          "rerun_shape": [
+            20,
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "align_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "angles_fit",
+          "reference_shape": [
+            20,
+            64
+          ],
+          "rerun_shape": [
+            20,
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "fit_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "lam",
+          "reference_shape": [
+            20,
+            64
+          ],
+          "rerun_shape": [
+            20,
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "max_angle",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "pop_loss",
+          "reference_shape": [
+            1001,
+            20
+          ],
+          "rerun_shape": [
+            1001,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "shares_fit",
+          "reference_shape": [
+            20,
+            64
+          ],
+          "rerun_shape": [
+            20,
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "signs",
+          "reference_shape": [
+            64
+          ],
+          "rerun_shape": [
+            64
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "steps",
+          "reference_shape": [
+            1001
+          ],
+          "rerun_shape": [
+            1001
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "w0",
+          "reference_shape": [
+            20,
+            64,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            64,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "w_fit",
+          "reference_shape": [
+            20,
+            64,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            64,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        }
+      ],
+      "fits": 20,
+      "runs": 20,
+      "strictly_aligned_before_fit": 20
+    },
+    {
+      "file": "xavier/xavier_normal_raw.npz",
+      "missing_keys": [],
+      "extra_keys": [],
+      "passed": true,
+      "n_arrays_compared": 26,
+      "maximum_array_difference": 0.0,
+      "arrays": [
+        {
+          "key": "G0",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "X",
+          "reference_shape": [
+            20,
+            8192,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            8192,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a0",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "a_fit",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "align_step_current",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "align_step_initial",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "changed_sign_count",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "changed_sign_mass",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "checkpoint_a",
+          "reference_shape": [
+            151,
+            20,
+            16
+          ],
+          "rerun_shape": [
+            151,
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "checkpoint_w",
+          "reference_shape": [
+            151,
+            20,
+            16,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20,
+            16,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "ever_changed_sign",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "bool",
+          "rerun_dtype": "bool",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "fit_step",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "initial_signs",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "lam",
+          "reference_shape": [
+            20,
+            16
+          ],
+          "rerun_shape": [
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "loss",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "max_angle_current",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "max_angle_initial",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "mean_log_error",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "median_log_error",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "sampled_indices",
+          "reference_shape": [
+            15000,
+            20
+          ],
+          "rerun_shape": [
+            15000,
+            20
+          ],
+          "reference_dtype": "int32",
+          "rerun_dtype": "int32",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "seeds",
+          "reference_shape": [
+            20
+          ],
+          "rerun_shape": [
+            20
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "shares",
+          "reference_shape": [
+            151,
+            20,
+            16
+          ],
+          "rerun_shape": [
+            151,
+            20,
+            16
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "steps",
+          "reference_shape": [
+            151
+          ],
+          "rerun_shape": [
+            151
+          ],
+          "reference_dtype": "int64",
+          "rerun_dtype": "int64",
+          "same_shape": true,
+          "comparison": "exact integer/boolean",
+          "passed": true,
+          "max_absolute_difference": 0
+        },
+        {
+          "key": "w0",
+          "reference_shape": [
+            20,
+            16,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            16,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "w_fit",
+          "reference_shape": [
+            20,
+            16,
+            20
+          ],
+          "rerun_shape": [
+            20,
+            16,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        },
+        {
+          "key": "weighted_angle_current",
+          "reference_shape": [
+            151,
+            20
+          ],
+          "rerun_shape": [
+            151,
+            20
+          ],
+          "reference_dtype": "float64",
+          "rerun_dtype": "float64",
+          "same_shape": true,
+          "comparison": "floating allclose atol=1e-9 rtol=1e-9, equal_nan=True",
+          "passed": true,
+          "max_absolute_difference": 0.0,
+          "same_nan_mask": true
+        }
+      ],
+      "fits": 0,
+      "runs": 20,
+      "median_final_max_angle_initial": 1.8261772957362434,
+      "minimum_monitored_loss": 0.0012458907608364767
+    }
+  ],
+  "reference_output_regeneration": {
+    "result": "PASS",
+    "commands": [
+      "python scripts/make_figures.py --data-dir reference_results --output build/reference/figures",
+      "python scripts/make_tables.py --data-dir reference_results --output build/reference/tables",
+      "python scripts/verify_tables.py --tables-dir build/reference/tables"
+    ],
+    "figure_files": [
+      "appendix_noise.pdf",
+      "appendix_scale_rate.pdf",
+      "figure2a_fixed_dataset.pdf",
+      "figure2b_fixed_dataset.pdf",
+      "figure3_fixed_dataset.pdf"
+    ],
+    "tables": 5,
+    "verified_rows": 68,
+    "verified_numeric_entries": 400,
+    "note": "Outputs generated only in the clean-copy build directory; release paper outputs were not changed."
+  }
+}

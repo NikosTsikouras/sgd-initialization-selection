@@ -1,0 +1,24 @@
+% Generated from experiment results by scripts/make_tables.py.
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rlrrrr}
+\toprule
+$m$ & Input law & Fits & Max. angle (rad) & $E_{\rm pool}$ & Uniform \\
+\midrule
+16 & Gaussian & 20/20 & 0.0132 & 0.0842 & 0.294 \\
+16 & Laplace & 20/20 & 0.0156 & 0.0916 & 0.271 \\
+16 & Uniform & 20/20 & 0.0129 & 0.0668 & 0.275 \\
+16 & Rotated Laplace & 20/20 & 0.0144 & 0.0840 & 0.298 \\
+16 & Rotated uniform & 20/20 & 0.0133 & 0.0804 & 0.304 \\
+64 & Gaussian & 20/20 & 0.0171 & 0.0820 & 0.324 \\
+64 & Laplace & 20/20 & 0.0195 & 0.0888 & 0.310 \\
+64 & Uniform & 20/20 & 0.0159 & 0.0810 & 0.298 \\
+64 & Rotated Laplace & 20/20 & 0.0178 & 0.0934 & 0.316 \\
+64 & Rotated uniform & 20/20 & 0.0153 & 0.0830 & 0.315 \\
+\bottomrule
+\end{tabular}
+\caption{Input-law comparison on fixed datasets ($M=2000$, $B=1$, 20 seeds per row). Angles are medians across runs; allocation errors pool neurons and fitted runs, and ``Uniform'' is the same error for uniform shares. For non-Gaussian inputs the loss is estimated on an independent test set. Every run reaches the alignment threshold by the fitting checkpoint.}
+\label{tab:h-nongaussian}
+\end{table}

@@ -1,0 +1,616 @@
+{
+  "result": "PASS_AT_PUBLISHED_PRECISION",
+  "method": "Independent comparison of complete rerun results with published reference results. Published table cells are compared exactly. Raw numerical precision is reported separately rather than treating publication agreement as bitwise reproduction.",
+  "reference_data": "reference_results",
+  "rerun_data": "results",
+  "strict_numeric_tolerance": {
+    "atol": 1e-09,
+    "rtol": 1e-09
+  },
+  "published_rows_checked": 43,
+  "published_numeric_entries_checked": 249,
+  "tables": [
+    {
+      "table": 1,
+      "rows": 11,
+      "display_cells_compared": 77,
+      "numeric_quantities_compared": 73,
+      "all_display_cells_identical": true,
+      "all_numeric_quantities_within_tolerance": true,
+      "max_absolute_numeric_difference": 1.8041124150158794e-15,
+      "differences": [],
+      "result": "PASS_AT_PUBLISHED_PRECISION",
+      "strict_full_precision_result": "PASS",
+      "published_numeric_entries": 73
+    },
+    {
+      "table": 2,
+      "rows": 16,
+      "display_cells_compared": 80,
+      "numeric_quantities_compared": 74,
+      "all_display_cells_identical": true,
+      "all_numeric_quantities_within_tolerance": false,
+      "max_absolute_numeric_difference": 9.175457677122051e-06,
+      "differences": [
+        {
+          "row": "paper-like",
+          "quantity": "angle_radians",
+          "reference": 0.01294053473573403,
+          "rerun": 0.012945206196743454,
+          "absolute_difference": 4.671461009424574e-06
+        },
+        {
+          "row": "paper-like",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.09022979,
+          "rerun": 0.090229687,
+          "absolute_difference": 1.030000000012965e-07
+        },
+        {
+          "row": "paper-like",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.3581221466479937,
+          "rerun": 0.35812232016855333,
+          "absolute_difference": 1.7352055964314772e-07
+        },
+        {
+          "row": "0.25x",
+          "quantity": "angle_radians",
+          "reference": 0.004085256924492237,
+          "rerun": 0.004092539136263258,
+          "absolute_difference": 7.2822117710208065e-06
+        },
+        {
+          "row": "0.25x",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.090585905,
+          "rerun": 0.090586015,
+          "absolute_difference": 1.100000000114898e-07
+        },
+        {
+          "row": "0.25x",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.32078294406227115,
+          "rerun": 0.3207828205293509,
+          "absolute_difference": 1.2353292022648787e-07
+        },
+        {
+          "row": "0.5x",
+          "quantity": "angle_radians",
+          "reference": 0.0068149717713648405,
+          "rerun": 0.0068241472290419625,
+          "absolute_difference": 9.175457677122051e-06
+        },
+        {
+          "row": "0.5x",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.1016305975,
+          "rerun": 0.101630585,
+          "absolute_difference": 1.250000000729834e-08
+        },
+        {
+          "row": "0.5x",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.34849499717062427,
+          "rerun": 0.3484951294037218,
+          "absolute_difference": 1.3223309752730117e-07
+        },
+        {
+          "row": "2x",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.085519906,
+          "rerun": 0.08551983499999999,
+          "absolute_difference": 7.100000001813989e-08
+        },
+        {
+          "row": "2x",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.3459186127708169,
+          "rerun": 0.34591865838565333,
+          "absolute_difference": 4.561483640808106e-08
+        },
+        {
+          "row": "5x",
+          "quantity": "angle_radians",
+          "reference": 0.058630009549533804,
+          "rerun": 0.05863052354899852,
+          "absolute_difference": 5.139994647129775e-07
+        },
+        {
+          "row": "5x",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.081220455,
+          "rerun": 0.081220612,
+          "absolute_difference": 1.5700000000062886e-07
+        },
+        {
+          "row": "5x",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.33496408078076034,
+          "rerun": 0.3349642716768352,
+          "absolute_difference": 1.908960748364663e-07
+        },
+        {
+          "row": "20x",
+          "quantity": "angle_radians",
+          "reference": 0.20772631249885443,
+          "rerun": 0.20772616414586803,
+          "absolute_difference": 1.4835298639548355e-07
+        },
+        {
+          "row": "100x",
+          "quantity": "angle_radians",
+          "reference": 0.8042192355455945,
+          "rerun": 0.8042188864797442,
+          "absolute_difference": 3.490658503357835e-07
+        },
+        {
+          "row": "unrestricted",
+          "quantity": "angle_radians",
+          "reference": 0.013754206273082699,
+          "rerun": 0.013758570468877311,
+          "absolute_difference": 4.364195794612918e-06
+        },
+        {
+          "row": "unrestricted",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.090453505,
+          "rerun": 0.090453435,
+          "absolute_difference": 7.000000000478845e-08
+        },
+        {
+          "row": "unrestricted",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.3439168549454207,
+          "rerun": 0.34391703419937414,
+          "absolute_difference": 1.7925395345841366e-07
+        },
+        {
+          "row": "25% violating",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.13191223000000002,
+          "rerun": 0.131912275,
+          "absolute_difference": 4.499999997631399e-08
+        },
+        {
+          "row": "25% violating",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.9333157604735748,
+          "rerun": 0.9333157887150113,
+          "absolute_difference": 2.8241436522691288e-08
+        },
+        {
+          "row": "100% violating",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.18876195,
+          "rerun": 0.188762025,
+          "absolute_difference": 7.499999998827889e-08
+        },
+        {
+          "row": "100% violating",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.5975582295777939,
+          "rerun": 0.5975581680241766,
+          "absolute_difference": 6.155361731430276e-08
+        },
+        {
+          "row": "bounded independent",
+          "quantity": "angle_radians",
+          "reference": 0.015546459749214448,
+          "rerun": 0.015548421761093074,
+          "absolute_difference": 1.962011878626005e-06
+        },
+        {
+          "row": "bounded independent",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.08657261999999999,
+          "rerun": 0.08657277,
+          "absolute_difference": 1.5000000000431335e-07
+        },
+        {
+          "row": "bounded independent",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.36449919123798613,
+          "rerun": 0.3644992131655546,
+          "absolute_difference": 2.1927568483182114e-08
+        },
+        {
+          "row": "wide layer ratios",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.13500634495854885,
+          "rerun": 0.13500635944453304,
+          "absolute_difference": 1.4485984189960277e-08
+        },
+        {
+          "row": "wide layer ratios",
+          "quantity": "uniform_mean_error_median",
+          "reference": 0.9888196862299585,
+          "rerun": 0.988819584903171,
+          "absolute_difference": 1.0132678751606505e-07
+        },
+        {
+          "row": "iid Gaussian output",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.17675420715680948,
+          "rerun": 0.1767539186846281,
+          "absolute_difference": 2.8847218139227415e-07
+        },
+        {
+          "row": "iid Gaussian output",
+          "quantity": "uniform_mean_error_median",
+          "reference": 1.4491732826086654,
+          "rerun": 1.4491734918362251,
+          "absolute_difference": 2.0922755972208051e-07
+        },
+        {
+          "row": "iid Gaussian output, unrestricted dirs",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.16528636992754428,
+          "rerun": 0.16528623078030386,
+          "absolute_difference": 1.3914724042440874e-07
+        },
+        {
+          "row": "iid Gaussian output, unrestricted dirs",
+          "quantity": "uniform_mean_error_median",
+          "reference": 1.2754555151038665,
+          "rerun": 1.2754557714850498,
+          "absolute_difference": 2.563811833944385e-07
+        },
+        {
+          "row": "Gaussian both layers, small scale",
+          "quantity": "allocation_mean_error_median",
+          "reference": 0.14033213681913348,
+          "rerun": 0.14033206397517628,
+          "absolute_difference": 7.284395719953096e-08
+        },
+        {
+          "row": "Gaussian both layers, small scale",
+          "quantity": "uniform_mean_error_median",
+          "reference": 1.3902768960976921,
+          "rerun": 1.3902767573055437,
+          "absolute_difference": 1.387921484408139e-07
+        }
+      ],
+      "result": "PASS_AT_PUBLISHED_PRECISION",
+      "strict_full_precision_result": "NOT_IDENTICAL_WITHIN_1E-9",
+      "published_numeric_entries": 74
+    },
+    {
+      "table": 3,
+      "rows": 10,
+      "display_cells_compared": 60,
+      "numeric_quantities_compared": 60,
+      "all_display_cells_identical": true,
+      "all_numeric_quantities_within_tolerance": true,
+      "max_absolute_numeric_difference": 7.126244039312724e-15,
+      "differences": [],
+      "result": "PASS_AT_PUBLISHED_PRECISION",
+      "strict_full_precision_result": "PASS",
+      "published_numeric_entries": 60
+    },
+    {
+      "table": 5,
+      "rows": 6,
+      "display_cells_compared": 42,
+      "numeric_quantities_compared": 42,
+      "all_display_cells_identical": true,
+      "all_numeric_quantities_within_tolerance": true,
+      "max_absolute_numeric_difference": 2.4702462297909733e-15,
+      "differences": [],
+      "result": "PASS_AT_PUBLISHED_PRECISION",
+      "strict_full_precision_result": "PASS",
+      "published_numeric_entries": 42
+    }
+  ],
+  "figure4_sweeps": [
+    {
+      "sweep": "alpha",
+      "conditions": 7,
+      "result": "PASS",
+      "maximum_allocation_error_difference": 4.996003610813204e-16,
+      "differences": []
+    },
+    {
+      "sweep": "tau",
+      "conditions": 8,
+      "result": "PASS",
+      "maximum_allocation_error_difference": 1.2212453270876722e-15,
+      "differences": []
+    }
+  ],
+  "initialization_record_comparison": {
+    "reported_original_conditions": 15,
+    "original_run_records": 300,
+    "new_xavier_runs": "20, separately checked in main_rerun_checks.json",
+    "field_comparisons": 3600,
+    "all_fit_steps_fit_status_and_changed_sign_counts_identical": true,
+    "conditions": [
+      {
+        "setting": "paper-like",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "0.25x",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "0.5x",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "2x",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "5x",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "20x",
+        "runs": 20,
+        "fits": 0,
+        "no_changed_sign_fits": 0
+      },
+      {
+        "setting": "100x",
+        "runs": 20,
+        "fits": 0,
+        "no_changed_sign_fits": 0
+      },
+      {
+        "setting": "unrestricted",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "25% violating",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "100% violating",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "bounded independent",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 20
+      },
+      {
+        "setting": "wide layer ratios",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 7
+      },
+      {
+        "setting": "iid Gaussian output",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 5
+      },
+      {
+        "setting": "iid Gaussian output, unrestricted dirs",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 5
+      },
+      {
+        "setting": "Gaussian both layers, small scale",
+        "runs": 20,
+        "fits": 20,
+        "no_changed_sign_fits": 4
+      }
+    ],
+    "fields": [
+      {
+        "field": "fitted",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": true,
+        "max_absolute_difference": 0.0,
+        "changed_numeric_records": 0,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": null,
+        "exact_matching": true
+      },
+      {
+        "field": "fit_step",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": true,
+        "max_absolute_difference": 0.0,
+        "changed_numeric_records": 0,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": null,
+        "exact_matching": true
+      },
+      {
+        "field": "stable_fit",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": true,
+        "max_absolute_difference": 0.0,
+        "changed_numeric_records": 0,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": null,
+        "exact_matching": true
+      },
+      {
+        "field": "fit_flip_frac",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": true,
+        "max_absolute_difference": 0.0,
+        "changed_numeric_records": 0,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": null,
+        "exact_matching": true
+      },
+      {
+        "field": "max_angle_deg_at_fit",
+        "records": 300,
+        "unit": "degrees",
+        "exact_match_required": false,
+        "max_absolute_difference": 0.0020624800000000054,
+        "changed_numeric_records": 51,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "0.25x",
+          "seed": 19,
+          "reference": 0.1887116,
+          "rerun": 0.19077408
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "mean_abs_log_share_error",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": false,
+        "max_absolute_difference": 1.289999999998237e-05,
+        "changed_numeric_records": 197,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "wide layer ratios",
+          "seed": 5,
+          "reference": 0.6405756,
+          "rerun": 0.6405627
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "final_max_angle_deg",
+        "records": 300,
+        "unit": "degrees",
+        "exact_match_required": false,
+        "max_absolute_difference": 0.0017350299999999985,
+        "changed_numeric_records": 88,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "0.25x",
+          "seed": 15,
+          "reference": 0.22468436,
+          "rerun": 0.22641939
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "fit_flip_mass_frac",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": false,
+        "max_absolute_difference": 4.710018158653184e-08,
+        "changed_numeric_records": 59,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "Gaussian both layers, small scale",
+          "seed": 7,
+          "reference": 0.014276711953840147,
+          "rerun": 0.014276759054021733
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "fit_max_angle_cur",
+        "records": 300,
+        "unit": "degrees",
+        "exact_match_required": false,
+        "max_absolute_difference": 0.002062484622001648,
+        "changed_numeric_records": 76,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "0.25x",
+          "seed": 19,
+          "reference": 0.18871159851551056,
+          "rerun": 0.1907740831375122
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "fit_wmean_angle_cur",
+        "records": 300,
+        "unit": "degrees",
+        "exact_match_required": false,
+        "max_absolute_difference": 0.0014107115812853621,
+        "changed_numeric_records": 260,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "iid Gaussian output, unrestricted dirs",
+          "seed": 3,
+          "reference": 0.27844083935021535,
+          "rerun": 0.27703012776893
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "fit_alloc_err_kept",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": false,
+        "max_absolute_difference": 1.2971742064049607e-05,
+        "changed_numeric_records": 260,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "wide layer ratios",
+          "seed": 5,
+          "reference": 0.6405756702942742,
+          "rerun": 0.6405626985522102
+        },
+        "exact_matching": false
+      },
+      {
+        "field": "fit_uniform_err_kept",
+        "records": 300,
+        "unit": "dimensionless or checkpoint index",
+        "exact_match_required": false,
+        "max_absolute_difference": 2.3620125646495183e-06,
+        "changed_numeric_records": 260,
+        "non_numeric_mismatches": 0,
+        "missing_or_nan_mask_mismatches": 0,
+        "largest_difference": {
+          "setting": "iid Gaussian output",
+          "seed": 2,
+          "reference": 1.6976014777740793,
+          "rerun": 1.6975991157615147
+        },
+        "exact_matching": false
+      }
+    ]
+  },
+  "interpretation": [
+    "Every printed entry in Tables 1, 2, 3, and 5 is unchanged by the clean-environment reruns.",
+    "NumPy results agree within 1e-9. The float32 initialization runs have small full-precision differences, consistent with numerical differences across PyTorch/runtime versions; the precise cause was not isolated.",
+    "Initialization fit status, fitting steps, unchanged-sign fit status, and changed-sign fractions agree exactly for every reported original run. No printed table number changes.",
+    "The largest Table 2 unrounded aggregate difference is 9.17546e-6 radians. Raw initialization diagnostics are not bitwise-identical and do not all satisfy 1e-9."
+  ],
+  "pending": {
+    "table4": "Anisotropic runs still in progress at time of this audit; not read.",
+    "noise": "Noisy-label runs not yet audited."
+  }
+}

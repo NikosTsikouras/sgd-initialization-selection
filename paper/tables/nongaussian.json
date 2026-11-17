@@ -1,0 +1,218 @@
+{
+  "number": 3,
+  "filename": "nongaussian",
+  "label": "tab:h-nongaussian",
+  "headers": [
+    "$m$",
+    "Input law",
+    "Fits",
+    "Max. angle (rad)",
+    "$E_{\\rm pool}$",
+    "Uniform"
+  ],
+  "rows": [
+    {
+      "id": "m16_gaussian",
+      "cells": [
+        "16",
+        "Gaussian",
+        "20/20",
+        "0.0132",
+        "0.0842",
+        "0.294"
+      ],
+      "values": {
+        "width": 16,
+        "input_law": "gaussian",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.013246507690477569,
+        "pooled_log_error": 0.0842146098717366,
+        "uniform_pooled_log_error": 0.2937355313259946
+      }
+    },
+    {
+      "id": "m16_laplace",
+      "cells": [
+        "16",
+        "Laplace",
+        "20/20",
+        "0.0156",
+        "0.0916",
+        "0.271"
+      ],
+      "values": {
+        "width": 16,
+        "input_law": "laplace",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.015641236635922956,
+        "pooled_log_error": 0.09161099560772598,
+        "uniform_pooled_log_error": 0.2710989680578501
+      }
+    },
+    {
+      "id": "m16_uniform",
+      "cells": [
+        "16",
+        "Uniform",
+        "20/20",
+        "0.0129",
+        "0.0668",
+        "0.275"
+      ],
+      "values": {
+        "width": 16,
+        "input_law": "uniform",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.012943194307394238,
+        "pooled_log_error": 0.06679832116656192,
+        "uniform_pooled_log_error": 0.27539124063944687
+      }
+    },
+    {
+      "id": "m16_laplace_rot",
+      "cells": [
+        "16",
+        "Rotated Laplace",
+        "20/20",
+        "0.0144",
+        "0.0840",
+        "0.298"
+      ],
+      "values": {
+        "width": 16,
+        "input_law": "laplace_rot",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.014375725347672157,
+        "pooled_log_error": 0.08399301185841349,
+        "uniform_pooled_log_error": 0.29769033615382734
+      }
+    },
+    {
+      "id": "m16_uniform_rot",
+      "cells": [
+        "16",
+        "Rotated uniform",
+        "20/20",
+        "0.0133",
+        "0.0804",
+        "0.304"
+      ],
+      "values": {
+        "width": 16,
+        "input_law": "uniform_rot",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.013251734212081857,
+        "pooled_log_error": 0.08035285870822956,
+        "uniform_pooled_log_error": 0.30418382192488114
+      }
+    },
+    {
+      "id": "m64_gaussian",
+      "cells": [
+        "64",
+        "Gaussian",
+        "20/20",
+        "0.0171",
+        "0.0820",
+        "0.324"
+      ],
+      "values": {
+        "width": 64,
+        "input_law": "gaussian",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.01714443837761367,
+        "pooled_log_error": 0.08204381769848304,
+        "uniform_pooled_log_error": 0.323583081706903
+      }
+    },
+    {
+      "id": "m64_laplace",
+      "cells": [
+        "64",
+        "Laplace",
+        "20/20",
+        "0.0195",
+        "0.0888",
+        "0.310"
+      ],
+      "values": {
+        "width": 64,
+        "input_law": "laplace",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.019509184206707646,
+        "pooled_log_error": 0.08878978573073029,
+        "uniform_pooled_log_error": 0.31016298592239144
+      }
+    },
+    {
+      "id": "m64_uniform",
+      "cells": [
+        "64",
+        "Uniform",
+        "20/20",
+        "0.0159",
+        "0.0810",
+        "0.298"
+      ],
+      "values": {
+        "width": 64,
+        "input_law": "uniform",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.01592540053893053,
+        "pooled_log_error": 0.08101659505825384,
+        "uniform_pooled_log_error": 0.29831022996966605
+      }
+    },
+    {
+      "id": "m64_laplace_rot",
+      "cells": [
+        "64",
+        "Rotated Laplace",
+        "20/20",
+        "0.0178",
+        "0.0934",
+        "0.316"
+      ],
+      "values": {
+        "width": 64,
+        "input_law": "laplace_rot",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.017813086807518613,
+        "pooled_log_error": 0.09341849937884017,
+        "uniform_pooled_log_error": 0.3163907333647321
+      }
+    },
+    {
+      "id": "m64_uniform_rot",
+      "cells": [
+        "64",
+        "Rotated uniform",
+        "20/20",
+        "0.0153",
+        "0.0830",
+        "0.315"
+      ],
+      "values": {
+        "width": 64,
+        "input_law": "uniform_rot",
+        "n_fitted": 20,
+        "n_runs": 20,
+        "max_angle_median": 0.015295575689269385,
+        "pooled_log_error": 0.08299149116216142,
+        "uniform_pooled_log_error": 0.3146682940750634
+      }
+    }
+  ],
+  "caption": "Input-law comparison on fixed datasets ($M=2000$, $B=1$, 20 seeds per row). Angles are medians across runs; allocation errors pool neurons and fitted runs, and ``Uniform'' is the same error for uniform shares. For non-Gaussian inputs the loss is estimated on an independent test set. Every run reaches the alignment threshold by the fitting checkpoint.",
+  "align": "rlrrrr",
+  "breaks": []
+}

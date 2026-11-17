@@ -1,0 +1,18 @@
+{
+  "seed": 17,
+  "d": 2,
+  "m": 1000,
+  "M": 2000,
+  "B": 1,
+  "alpha": 0.01,
+  "tau": 0.003,
+  "steps": 12000,
+  "check_every": 20,
+  "alignment_step": 3540,
+  "fitting_step": 6440,
+  "final_population_loss": 6.382561146267562e-11,
+  "max_angle_at_fit": 0.02348069008734692,
+  "max_angle_between_first_alignment_and_fit": 0.0562108668311374,
+  "sustained_alignment_step": 4340,
+  "seconds": 10.63
+}
